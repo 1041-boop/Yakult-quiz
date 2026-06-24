@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>商品知識クイズ｜兵庫ヤクルト販売</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%0A%20%20%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%23CC0000%22/%3E%0A%20%20%3Crect%20x%3D%224%22%20y%3D%227%22%20width%3D%229%22%20height%3D%2213%22%20rx%3D%221.5%22%20fill%3D%22white%22/%3E%0A%20%20%3Crect%20x%3D%225.5%22%20y%3D%229%22%20width%3D%226%22%20height%3D%222%22%20rx%3D%221%22%20fill%3D%22%23CC0000%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%225.5%22%20y%3D%2212%22%20width%3D%226%22%20height%3D%222%22%20rx%3D%221%22%20fill%3D%22%23CC0000%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%2219%22%20y%3D%227%22%20width%3D%229%22%20height%3D%2213%22%20rx%3D%221.5%22%20fill%3D%22white%22/%3E%0A%20%20%3Crect%20x%3D%2220.5%22%20y%3D%229%22%20width%3D%226%22%20height%3D%222%22%20rx%3D%221%22%20fill%3D%22%23CC0000%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%2220.5%22%20y%3D%2212%22%20width%3D%226%22%20height%3D%222%22%20rx%3D%221%22%20fill%3D%22%23CC0000%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%2214%22%20y%3D%227%22%20width%3D%224%22%20height%3D%2213%22%20rx%3D%221%22%20fill%3D%22white%22%20opacity%3D%220.5%22/%3E%0A%20%20%3Ccircle%20cx%3D%2223%22%20cy%3D%2224%22%20r%3D%226%22%20fill%3D%22white%22/%3E%0A%20%20%3Cpath%20d%3D%22M19.5%2024%20L22%2026.5%20L27%2020.5%22%20fill%3D%22none%22%20stroke%3D%22%23CC0000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%0A%3C/svg%3E">
+<link rel="shortcut icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%0A%20%20%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%23CC0000%22/%3E%0A%20%20%3Crect%20x%3D%224%22%20y%3D%227%22%20width%3D%229%22%20height%3D%2213%22%20rx%3D%221.5%22%20fill%3D%22white%22/%3E%0A%20%20%3Crect%20x%3D%225.5%22%20y%3D%229%22%20width%3D%226%22%20height%3D%222%22%20rx%3D%221%22%20fill%3D%22%23CC0000%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%225.5%22%20y%3D%2212%22%20width%3D%226%22%20height%3D%222%22%20rx%3D%221%22%20fill%3D%22%23CC0000%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%2219%22%20y%3D%227%22%20width%3D%229%22%20height%3D%2213%22%20rx%3D%221.5%22%20fill%3D%22white%22/%3E%0A%20%20%3Crect%20x%3D%2220.5%22%20y%3D%229%22%20width%3D%226%22%20height%3D%222%22%20rx%3D%221%22%20fill%3D%22%23CC0000%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%2220.5%22%20y%3D%2212%22%20width%3D%226%22%20height%3D%222%22%20rx%3D%221%22%20fill%3D%22%23CC0000%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%2214%22%20y%3D%227%22%20width%3D%224%22%20height%3D%2213%22%20rx%3D%221%22%20fill%3D%22white%22%20opacity%3D%220.5%22/%3E%0A%20%20%3Ccircle%20cx%3D%2223%22%20cy%3D%2224%22%20r%3D%226%22%20fill%3D%22white%22/%3E%0A%20%20%3Cpath%20d%3D%22M19.5%2024%20L22%2026.5%20L27%2020.5%22%20fill%3D%22none%22%20stroke%3D%22%23CC0000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%0A%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ヤクルトクイズ">
+<link rel="manifest" href="data:application/json;base64,eyJuYW1lIjogIuWVhuWTgeefpeitmOOCr+OCpOOCuiIsICJzaG9ydF9uYW1lIjogIuODpOOCr+ODq+ODiOOCr+OCpOOCuiIsICJzdGFydF91cmwiOiAiLiIsICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLCAiYmFja2dyb3VuZF9jb2xvciI6ICIjQ0MwMDAwIiwgInRoZW1lX2NvbG9yIjogIiNDQzAwMDAiLCAiaWNvbnMiOiBbeyJzcmMiOiAiZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFNQUFBQURBQ0FZQUFBQlMzR3dIQUFBQUJtSkxSMFFBL3dEL0FQK2d2YWVUQUFBVUYwbEVRVlI0bk8zZGZYQlU1YjNBOGU4NXU1dk5Dd2tKRUNDOFZNSzdSa1FrS01PVnEyQkpjVVlvNEFzd2xpdTJuYXVsVHFmSzJOcDdTVnUwVjcyZEtiNGcyTnNaYTF0UmZNTVhxSmNxVG15bGFpbEIwQUx4SmJ5a1NDQUI4azZ5MmV6dXVYOXM4Q0xaVGZic25wZnNPYi9QRERObTk1enorL25rL0hhZm5PYzV6MUd3UVNWa2EzQ2xBcE1WbUFoTTFtQWtNQUFvQUhLQUREdHlFNllKQU0xQXN3TE5HbFFESHlud1VSajJYUWtuN1VoS3NTclFIcGdaZ2ZrS3pBV3VRazV3OFZYN2dLMHFiSnNHZXhUUXJBaHFhZ0hzZ21JUHJDRDZiN3lac1lTakhOSmdnd0svTFkxK2E1akdsQUxZQTlNajhCOEtMQUpVTTJJSVYyZ0QvdUNGQnkrSDQyWUVNTFFBdWsvOFh5Z3czOGpqQ3RkckI5Wmx3WCtYUkl2Q01JWVV3RjdJRDhOL0FYY0FIaU9PS1VRTUp6VzRad1pzTnVxQUtSZkFicmhKZ1NlQVlRYmtJMFFpWGd6RHFxdmdUS29IU3JvQTNvSE1YUGdWc0NyVkpJUkl3Z2tOL20wR3ZKM0tRWklxZ082ck8xdUFhYWtFRnlKRkllQ2VVbGlmN0FGMEY4Q0hNRFVDMjRHaVpJTUtZU1FOZnFQQVhhWFFwWGRmWFFYd2Q3aEdoZGVCZ1hvRENXRW1CYmEzd0pJNTBSRm5QZnNscHZ2ay94T1FxVHM3SWF6eHhrQzRjUUowSnJwRFFnWFEzZTM1Qy9MSkwvbzVCYlpud3FJU0NDYXlmWitqdEx1Z3VMdlBMeWUvNlBjMHVMNEQvaWZSN1hzdGdNL0I3NEdYa1Q5NFJYcFp1UnYrTTVFTmV5MkFabGdIWEdGSVNrSllTSUVIZHNPTkNXd1hXL2NJNzB2R3BpV0VwWnBVdVB3S3FJbTNRY3dDK0J2a2VlRVRwT3NqMHQvZmdhdmpqUkhFN0FKNTRTSGs1QmZPY0NWd1g3dzNlM3dEN0lIcEd1eENablVLNXdnb01HVjY5RGJNcitqeERhQkZwelhMeVMrY0pGT0REYkhlK01vM1FQZW5mNlUxT1FsaExRMFd6WWhPNWZtU2VzRUdDVjA3RlNJZEtmQmYyZ1huL0pjLzdJSmk0SnVXWnlXRWRVb3FZZkg1TDN4WkFCNzRGbklEdTNBNEJjcTE4N3IrNTUvd3Q5cVFqeEJXbTdvWFpwLzdRWVhvb2xYQUpOdFNFc0pDR256MzNIK3IzUzljYjE4NlFsaExnNXYyUWo3OGZ4ZG9qbzM1Q0dHMXJIRDNCUisxRXJLSkRoY0w0UnJuZWoycUZqMzUvVGJuSTRTbEZDaDdFVHlxQXBQdFRrWUlHeFNNaFZKVms2cy93cVVVbUtxcVVnRENwVFM0Vk5WZ2xOMkpDR0dUUzFVZ3orNHNoTEJKa1FyazJwMkZFRGJKVjRrK21FNElOeXBRa1lmVkNmZnl5L1JuNFdwU0FNTFZwQUNFcTBrQkNGZVRBaEN1SmdVZ1hFMEtRTGlhRklCd05Ta0E0V3BTQU1MVnBBQ0VxMGtCQ0ZlVEFoQ3VKZ1VnWEUwS1FMaWFGSUJ3TlNrQTRXcFNBTUxWcEFDRXEzbnRUc0JJR2FOSE0rRHFxL0VOSDQ2U1lkMnR6cEhPVG9JMU5iUys4dzdocHFia0RxS3ErSXVMOFJVVm9maDhTUjFDNit5a3M2YUdydVBIazh1Qk5HL0RKRGlpQUhMbnptWEUvZmN6WU5Zc1VIbzgrdGd5a1VDQXhoZGY1UGhQZmtKWGJXM0MrMlZOblVyK0RUZmdLU2d3Skk5Z1RRMk5XN2JveWlIZDJ6QlpTaVZvcGtjeGllTDFNdnF4eHloY3RjcnVWTDRpM05MQzBSVXJhTnE2dGM5dDg4ckt5Q3NyTXp3SHJhdUxNNy8vUFlGUFB1bDFPeWUwWVNyUzkyOEFSYUY0MDZaKzk0c0Q4T1RsTVhiTEZnWXRYOTdyZGxsVHA1cHk4Z01vUGgrRFY2ekFOMnhZTHh1bGZ4dW1LbTBMWU5qcTFSUXNYV3AzR25FcFhpOFhQZlVVMmRPbXhkNUFWY20vNFFaemMvRDd5ViswS083N2FkK0dCa2pMQXZBV0ZsSlVYbTUzR24xU3M3SzQ2S21uUU8zWnpQN2lZc1A2L0wzeFQ1Z1E4MXZBQ1cxb3lQRk5PYXJKQnQ5Mkc1Njg5RmpUTjN2YU5QSVhMT2p4dXErb3lMSWNNc2FPN2ZHYUU5clFDR2xaQUFOTjdqb1lMVlkvVnMzT3RpeStaMERQNVYrZDBJWkdTTXNDeUp5VVhzLzB5Sms1MDk0RVlseldsRGFNU3NzQzhCWVcycDJDTHI2UkkrMU9vUWRwdzZpMExBREY0N0U3QlYwVWIvOGJiNVEyak9wL3Z4a0RoYzZjSVhMMkxHZ21qUFVwQ21wdUxsNExydVRZeWVsdDZNZ0M2RHg4bU5hS0NzTE56YWJIOGcwYlJtNVpHYjZoUTAyUFpTVzN0R0ZhZG9GNjAzbjRNRTJ2dldiSkx3NmdxNjZPeGhkZXNIUUNsOW5jMUlhT0s0RFdpZ3B6dnE1N29RV0R0THoxbHFVeHplU21OblJVQVlUT25MSHNVK3RDd1dQSGJJdHRKTGUxb2FNS1FBc0diWTBmYVcrM05iNFIzTmFHamlvQTc1QWhTZDlNa2pKVnhUdG9rRDJ4RGVTMk5uUlVBU2crSHdPdXZ0cVcyRmtsSlNoK3Z5MnhqZVMyTm5SVUFVQjA0bFRtSlpkWUdqTmoxQ2h5NTh5eE5LYVozTlNHemhzSFVCUUdYbjg5bVpNbUVmamtFMVA3bEdwbUp2NXg0OGljUE5uVzJ3Z041NkkyZEY0QmRQT1BIWXMveGpSZ2tUZzN0S0hqdWtCQzZDRUZJRnhOQ2tDNG1pUC9CdEFpRVFKVlZRU1BIQ0VTQ0pnV3g1T2RqWC9TSlB6anhwa1d3eTV1YVVQSEZZQVdETkwweWlzRVUxZ2RUWStPcWlveUw3bUVnZlBuTytaS2tKdmEwSEZkb0phS0NzdCtjZWNFRGg2a2ZlOWVTMk9heVUxdDZLZ0NpQVFDZEZaVjJSSzc3YjMzMExxNmJJbHRKTGUxb2FNS0lOellpQmFKMkJKYkN3WUpuVGxqUzJ3anVhME5IVlVBYWxhV3JmR3RYRTNaTEc1clEwY1ZnQ2MvSDkrb1ViYkZkc0pzVUxlMW9hTUtBR0RnTjc1aC9TZXhvcEIzM1hYV3hqU1JtOXJRY1FYZ3ljK25ZT25TM2xkRk5qcmVraVZrakJsalNUd3J1S2tOSFRjT0FPQWJPcFJCMy9vVzRhWW13aTB0NWkzcE1XQ0FJN285c2JpbERSMVpBT2Q0OHZQeDVPZmJuVVphYzNvYk9xNExKSVFlVWdEQzFhUUFoS3RKQVFoWGt3SVFyaVlGSUZ4TkNrQzRtaFNBY0RVcEFPRnFVZ0RDMWFRQWhLdEpBUWhYa3dJUXJpWUZJRnhOQ2tDNG1oU0FjRFVwQU9GcVVnREMxZEt5QUxSUXlPNFVkTkhDWWJ0VDZFSGFNQ290QzZDcnR0YnVGSFFKblR4cGR3bzlTQnRHcFdVQm5OMjF5KzRVZEFsODlwbmRLZlFnYlJpVmxnWFE4Tnh6ZHFlZ1MvTzJiVDFlaTdTMVdSWS9jdlpzajllYzBJWkdTTXNDYUhyOWRkb3JLKzFPSXlIaDVtYk8vT0VQUFY3dlBIellzaHhpZFhlYzBJWkdTTXNDUU5Pb3VlTU9VNTljWXBRVGE5ZkdYUEc0NitSSk9xdXJUWThmYW1pZ3M2YW01eHNPYUVNanBHY0JBTzBmZmtqTnQ3L2RyNjltTkR6L1BIV1BQaHIzL2FaWFgwWHI3RFExaCtadDJ5RE9jdWRPYU1OVXBXMEJBRFJzM3N5aEpVc0lOemZiblVvUDlZOC96dEVWSzNwZFVyQ3JybzR6enp4ajJrTWhXdDU4azQ1Ly9LUFhiZEs5RFZPbFZJSjVSN2VJcjZpSWtRODlSTUhTcGFpWm1mWWxvbW0wL2ZXdkhGK3poclozMzAxNE4xOVJFUVUzM21qWTRyQ2hoZ2FhdDIzcjgrUy9NSWQwYnNOa09hSUF6dkVNSEVqdXRkZVNNV1lNdnFJaXkrS0c2dW9JMXRiU3RuTm5TdGZYZlNOR2tISFJSWGdHRGtUeGVIVHRxNFhEUk5yYTZEcCtQTnJuVC9JcEwrZmEwRDloQXBrWFg0eDMwQ0RVckt6b2N1bXFDcEVJV2pCSXBLT0RVRU1ENFlZR1F3YXBqR3BEdlJ4VkFDSjVpczlIM3J4NTVNMmJSKzZjT1dSTm1SSTk0ZnNTaWREKzhjZTB2dk1PclR0MjBQTDIyMm4xckRRcEFKZkxuRHlad3U5OWowSExsK010TEV6NWVLRlRwMmpZdkpsVEd6Y1MrUFJUQXpJMGx4U0FTMlZObVVMUlQzOUt3WklsaVgzUzZ4V0owUGp5eTV4NDRBRTY5dTgzL3ZnR2tRSndHVFVuaDZMeWNvYXRYbzNpTmYveEVGb294S21ORzZrdEw0OCthS09ma1FKd2tRR3paMVA4M0hOazJQQVF2T0N4WXh4WnZweTI5OTZ6UEhadjBub2NRQ1J1K0k5L3pNU0tDbHRPZm9DTTBhTVo4ZEJEbG56cjZORy9zaEdHVXp3ZVJqL3hCSVYzM21sckhwMUhqbkQ0cHB2NjNhaXpGSUNES1I0UFl6WnRZdEN5WmJibUVXNXA0ZENDQllUcTYyM05JeGJwQWpuWXFIWHJiRC81dFZDSXc3ZmNRc2VCQTdibUVZOFVnRU1Odis4K2h2N2dCM2Fud2JFZi9wQ1dOOSswTzQyNDVDcVFBK1hNbk1ta2Q5OUY4ZmxzemFOKy9YcU85WU1pN0kwVWdNTjQ4dks0NU1BQjI2NzJuTk84ZlR1SEZpem9sd3NDbkUrNlFBNHo0djc3YlQvNUF3Y1BjbVQ1Y2wwbmY4YklrU1ptRko4VWdJTmtYWFlaaGQvL3ZxMDVoRTZmcG5yaFFsMzNGL2lLaXBpNGN5ZFpKU1VtWmhhYkZJQ0RGSldYMnpyUUZBa0VxRjY0a001RGh4TGVSODNLWXR4cnIrRXZMbWI0bWpVbVpoY252dVVSaFNreUowK09UbXl6aTZaUjg5M3ZjdmFERHhMZlIxRVk4L1RUNUZ4NUpRQUZOOTlNNXFSSkppVVlteFNBUXhTdVdtWE9yTTRFMWY3ODV6UTgrNnl1ZlVZKy9EQUZTNWQrK2JQaThWZytZaTFYZ1J4QThYcVo4c1VYK0lZTnN5Vis0MHN2Y1hqcFVsMzM3ZzVldVpJeFR6L2Q0L1ZRZlQwZmp4cGwyVTAxOGczZ0FIbGxaYmFkL0dkMzcrYm95cFc2VHY0QnMyZHowYTkvSGZNOTc5Q2g1TTZkYTFCMmZaTUNjSUM4ZWZOc2lSczhlcFJEQ3hZUWFXOVBlQi8vMkxHTTI3SUZ4ZStQdTAzZTE3OXVSSG9Ka1FKd2dOdzVjeXlQR1c1dHBYcmhRcnJxNmhMZXh6dG9FT08zYisvejFrc3J2d0ZrTm1pYVV6TXpvemV3OTBMcjZxTHQzWGZwcUtxS3J2cHd6VFZrZk8xclNjZlVRaUVPMzN5enJtVlhGSitQc1MrL1RPYkVpWDF1bXpWMUtvcmZiL3FpWVNBRmtQYjhFeWIwZXZXbjdiMzNPSHJiYlYrNU5xOTRQQXk1ODA1Ry8rcFh2WFpGNGtsbWd0dlhubnd5NFc4cXhlUEJQMjRjZ1lNSGRlZW1sM1NCMGx4dm42anQrL2J4ZVZsWmo0RXBMUnptMUlZTlZDOWFwSHR0MFByMTZ6bTFZWU91ZlliZGV5OUR2dk1kWGZ0WU5SNGdCWkRtdkVPR3hIM3ZpN3Z2N3ZVUDFKWS8vWWxEaXhjblhBVE4yN2Z6eGQxMzY4b3ZmOUVpUmozOHNLNTlBTHlEQit2ZUp4bFNBR2xPemMyTitYcm85R2xhLy9LWFB2ZFB0QWc2OXUvbnlMSmx1aWE0WlY5eEJjV2JOaVUxUU9mSnk5TzlUektrQU5KY3ZIVTh1MDZjU1BqYWZGOUYwRlZYUi9XQ0JicVdOZkdOR01INHJWdFJjM0lTM3VkOGFuWjJVdnZwam1OSkZHR2FTRWRIek5kOVJVV2dLQWtmSjE0UlJBSUJEaTFhUlBEbzBZU1BwZWJrTUg3clZud3BUSEhXTTdhUUNpbUFOQmZ2VVV2ZUlVUEl2ZVlhWGNmcVVRU2FSczN0dDNQMmIzOUwvQ0NxU3ZFeno1QTlmYnF1MkJleWFoRXRLWUEwMTNYcVZOejNSajN5aU82dXhQbEZVTHQyTFEzUFA2OXIvNUVQUGtqKzRzVzY5b2tsZFBwMHlzZEloRXlHUzNOWlU2Wnd5Y2NmeDMxZjc1V2VMNDk3MldYUmdTNDlFOXh1djUweHYvMnRyamp4SENncHNXUWNRQW9nemFtWm1VdzdlN2JYS3kwdGI3M0ZvVzkrMDlUbmdRMllQWnVKTzNZa05iQjJJUzBjWm05T2ppVWp3U3BnZmhSaG1rZ2cwT2VVaEx5eU1zYTkvcnBwVDM1SlpJS2JIaDM3OWxseThnT2RLdEJrUlNSaG5wYUtpajYzTWFzSUVwM2dwa2RyQXY4L1JvVlNnZjczZERTaFMrdU9IUWx0bDFkV3hyaFhYeldzQ1BSTWNOT2o1ZTIzRFQxZWI2RlVCVTVZRlUyWW8yWEhqb1NuSmVmTm4yL1lOOEhvOWVzTm40b2RxcSszOWh0QWcvNjVhS05JbUJZSzBmakNDd2x2YjBSM2FOaTk5MUo0eHgxSjd4L1BtV2VmdFhJRjZXTXFrUGlrYnRGdjFhOWZyMnVlVGlyZG9XUW51UFZGQzRjNUhlZFdTWk44cWlxd3o4cUl3aHlkMWRVMHZmS0tybjJTNlE1bFQ1dVc5QVMzdmpTKzhBS0J6ejR6L0xqeEtQQ3A4ZzU0YytFVWtHOVpaR0dLckVzdjVlSzllM1V2anBYb09JR3ZxSWpKdTNhUk1YcDBLbW5HcEhWMWNYRHFWQUpWVllZZk94NEYvbFdkQXlIQXNqKzdoWGs2OXUrbmZ2MTYzZnNsMGgxU2MzSVl2MjJiS1NjL1FQMmpqMXA2OGdPQlRxaFVBVFRZYm1Wa1laNFRQL3Nad1dQSGRPK1hOMzgrNDk5NEkrYU5LTjdCZ3htL2JWdktFOXppQ2RiVVVIdi8vYVljdXhjZnpJSU9CYUFTQmdLMWdEV1RzSVdwY3E2NmlrazdkeWIxZklCd1l5T25mL2M3MmlzckFjZ3VMV1hJeXBWNENncU1UaE9JWHNINjdOcHI3WGg2WkhrcC9PTExDZU9Wc0FtNDFlb3NoRG1HM1hzdm8zNzVTN3ZUNk5NWHExZFR0MjZkNVhFVktKME9lenpuWHZoM2FBUnVzendUWVlxejc3K1B0NkNBbkprejdVNGxybE5QUGttdERTdENBMVdsc0FiT3V4OWdPdndaaUQrdlZxU2RZL2ZjUThQbXpYYW5FVlBEYzgveHo3dnVzaVcyRXUzdEFPY1ZnQktkK2YyQUxSa0pjMFFpSExuMVZ1b2VlY1R1VEw3aTFJWU5IRm14QWlJUk84Skh0UE1Ld0hQK083K0JxaE93QkxCbnBWVmhpcFkzM3lUUzNrN3VuRGtvTmk2aHJuVjFjZnhIUDZLMnZGelhqVFlHZTZrVW5qcjNRNCs3cHZmQUVnMjJXSnVUc01LQVdiTW8zcnc1cFdVUmt4V3NxZUh3c21YNjdpODJucWJDdEN2Z28zTXY5UGc0bUE2dkFQOXJhVnJDRW0zdnY4K0JpeS9teE5xMWFNR2dKVEcxVUlqNnh4L240SlFwZHAvOGFQREg4MDkraVBFTkFMQVhKb1NqaytTTXVjVkg5RHRaSlNVTVg3T0dRYmZjWXNxOEhpMGNwdkhGRnpueHdBTldqL0RHRTFKZyt2UUxMdlRFWFRpbUVuNEtyRFU5TFdHcnpJa1RLVnkxaW9KbHl3eDV5RVpYWFIyTm16ZFR2M0Vqblo5L2JrQ0d4dERnMFJuUVkxM0h1QVhRUFVudXo4Qy9tSm1ZNkI4VXI1ZmM2NjRqYjk0OGN1Zk9KZXV5eTFBOG5qNzMwOEpoT2o3NmlOYUtDbHAyN0tDMW9zTEsrZnlKT2dsTUxvMXg5Mk92UzRkOUNCZEZvdE9sWmFhb3l5aCtQNW5qeCtPZk1BSHYwS0Y0Y25OUnZGNjBVSWh3YXl1aHVqbzZxNnNKVkZkYmRRTjdzalFORnMrQTEyTzkyZWZhZWJ2aFJnVmVTbVJiSWZxaHgwcmhoL0hlN1BPdm54bXdSWU55WTNNU3dud2FWR2JCajNyYkp1RlA5VXA0R2xpWmFsSkNXT1E0TUtzVS90bmJSZ2xmLzhxQ094UzViMENraDBZTjV2ZDE4b09PQWlpQllCNHNCdDVJS1RVaHpOVUJMSndCK3hQWldOY0l5QVRveklyT0ZYb3RtY3lFTUZtVEF0OG9oYjhtdW9QdUljQVNDTGJDellEK20wK0ZNTThKRmE2ZERqdjE3SlRTcGMzZGNKY0NqeUNQV3hVMlVtQzNCamNsMHVlL1VFcVRRR2JBRXlyTVI1WlhGUGJRZ01jeTRlcGtUbjR3YUhCckZ3ejJ3RWJnRmlPT0owUUNhalZZRlcrRU4xR0dqdTd1aHVVS3JBT0dHM2xjSWM0VDB1Q0pNUHhzSnFUOElESERwemNjZ0FFZDBkRzMxY2d5SzhJNG1nWi9WR0hOaFZPYVUySGEvSjU5TURJTTkyblJsU1ppUDgxWmlMNUZnSmRWZVBEQ20xbU1ZUG9FdCs1RnQxWUMzd2NtbUIxUE9FYVZBcHMwMkpUc0g3aUpzSFNHNTI2WXBzSkNEUllDVjFnWlcvUjdBZUFEb0VLQjdkTmhqeFZCYlp2aS9CRU03WUxMTmJoY2dhbkFPS0xmRnZuZC84eDVvcHV3U3hCb0pYcFRTZ3Z3QmZDcEFwOEJWWjFRT1NzNmpjRlMvd2RONHIxN3VCSzA5QUFBQUFCSlJVNUVya0pnZ2c9PSIsICJzaXplcyI6ICIxOTJ4MTkyIiwgInR5cGUiOiAiaW1hZ2UvcG5nIn1dfQ==">
+<meta name="theme-color" content="#CC0000">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{--red:#CC0000;--rd:#A00000;--rl:#FFF0F0;--rm:#FFDDDD;--g0:#FAFAFA;--g1:#F4F4F4;--g2:#E8E8E8;--g4:#AAAAAA;--g6:#666;--g8:#222;--r:10px;--rl2:16px;--sh:0 2px 12px rgba(0,0,0,0.08);--fn:"Noto Sans JP",sans-serif;--fnr:"M PLUS Rounded 1c",sans-serif;--bg:var(--g0);--card:#fff;--border:var(--g2);--txt:var(--g8);--txt2:var(--g6);}
+body.dark{--red:#FF4444;--rd:#CC2222;--rl:#3A1010;--rm:#4A1A1A;--g0:#121212;--g1:#1E1E1E;--g2:#333;--g4:#777;--g6:#AAA;--g8:#EEE;--bg:#121212;--card:#1E1E1E;--border:#333;--txt:#EEE;--txt2:#AAA;--sh:0 2px 12px rgba(0,0,0,0.4);}
+body.theme-blue{--red:#1565C0;--rd:#0D47A1;--rl:#E3F2FD;--rm:#BBDEFB;}
+body.theme-blue.dark{--red:#42A5F5;--rd:#1E88E5;--rl:#0D2A4A;--rm:#1A3A5C;}
+body.theme-green{--red:#2E7D32;--rd:#1B5E20;--rl:#E8F5E9;--rm:#C8E6C9;}
+body.theme-green.dark{--red:#66BB6A;--rd:#43A047;--rl:#0A2E0A;--rm:#1A3A1A;}
+body.theme-purple{--red:#6A1B9A;--rd:#4A148C;--rl:#F3E5F5;--rm:#E1BEE7;}
+body.theme-purple.dark{--red:#AB47BC;--rd:#8E24AA;--rl:#2A0A3A;--rm:#3A1A4A;}
+body{font-family:var(--fn);background:var(--g0);color:var(--g8);min-height:100vh;transition:background 0.3s,color 0.3s;}
+.app{max-width:390px;margin:0 auto;padding:0 0 3rem;}
+body.admin-mode .app{max-width:800px;padding:0;}
+body.admin-mode #s2{padding:16px 24px;}
+body.admin-mode .atb{flex-wrap:nowrap;}
+.hdr{background:var(--red);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;border-radius:0 0 var(--rl2) var(--rl2);margin-bottom:1.25rem;}
+.hbr{display:flex;align-items:center;gap:10px;}
+.hlo{width:32px;height:32px;background:white;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.hlo span{font-size:11px;font-weight:700;color:var(--red);font-family:var(--fnr);}
+.htl{color:white;font-size:15px;font-weight:700;font-family:var(--fnr);}
+.hsb{color:rgba(255,255,255,0.8);font-size:10px;}
+.atg{background:rgba(255,255,255,0.2);border:1px solid rgba(255,255,255,0.4);border-radius:20px;padding:5px 12px;color:white;font-size:11px;cursor:pointer;font-family:var(--fn);}
+.atg:hover{background:rgba(255,255,255,0.3);}
+.atg.on{background:white;color:var(--red);}
+.nav{display:flex;gap:4px;padding:0 16px;margin-bottom:1.25rem;}
+.ntb{flex:1;padding:9px 6px;font-size:12px;font-weight:500;text-align:center;cursor:pointer;border:none;background:var(--g2);color:var(--g6);border-radius:var(--r);font-family:var(--fn);transition:all 0.15s;}
+.atab{flex:1;padding:7px 2px;font-size:10px;font-weight:600;text-align:center;cursor:pointer;border:none;border-bottom:2px solid transparent;background:transparent;color:var(--g4);font-family:var(--fn);transition:all 0.15s;white-space:nowrap;}
+.atab.on{color:var(--red);border-bottom-color:var(--red);}
+.ntb.on{background:var(--red);color:white;}
+.ntb:hover:not(.on){background:var(--rm);color:var(--red);}
+.sec{display:none;padding:0 16px;}
+#s2.on{padding:0 16px;max-width:100%;}
+.sec.on{display:block;}
+.wc{background:white;border-radius:var(--rl2);padding:1.25rem;margin-bottom:1rem;border:1px solid var(--g2);box-shadow:var(--sh);}
+.wtl{font-size:17px;font-weight:700;font-family:var(--fnr);margin-bottom:4px;}
+.wsb{font-size:12px;color:var(--g6);line-height:1.6;}
+.sg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:1rem;}
+.si{background:white;border-radius:var(--r);padding:12px 8px;text-align:center;border:1px solid var(--g2);box-shadow:var(--sh);}
+.sv{font-size:22px;font-weight:700;color:var(--red);font-family:var(--fnr);}
+.sl{font-size:10px;color:var(--g6);margin-top:2px;}
+.xc{background:white;border-radius:var(--r);padding:12px 16px;margin-bottom:1rem;border:1px solid var(--g2);}
+.xh{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;}
+.xlv{font-size:12px;font-weight:700;color:var(--red);}
+.xpt{font-size:11px;color:var(--g6);}
+.xb{height:8px;background:var(--g2);border-radius:4px;overflow:hidden;}
+.xf{height:100%;background:var(--red);border-radius:4px;transition:width 0.6s;}
+.cll{font-size:12px;font-weight:700;color:var(--g6);margin-bottom:8px;padding-left:2px;}
+.cgr{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:1rem;}
+.ccd{background:white;border:1px solid var(--g2);border-radius:var(--rl2);padding:14px;cursor:pointer;transition:all 0.15s;text-align:left;box-shadow:var(--sh);}
+.ccd:hover{border-color:var(--red);transform:translateY(-1px);box-shadow:0 4px 16px rgba(204,0,0,0.12);}
+.cic{font-size:20px;margin-bottom:6px;color:var(--g4);}
+.cnm{font-size:12px;font-weight:700;color:var(--g8);margin-bottom:2px;line-height:1.3;word-break:keep-all;overflow-wrap:anywhere;}
+.cct{font-size:11px;color:var(--g6);}
+.cac{font-size:10px;padding:2px 8px;border-radius:8px;float:right;}
+.ahi{background:#EAF3DE;color:#3B6D11;}
+.ami{background:#FAEEDA;color:#854F0B;}
+.alo{background:var(--rl);color:var(--rd);}
+.rb{width:100%;padding:13px;background:var(--red);color:white;border:none;border-radius:var(--rl2);font-size:14px;font-weight:700;cursor:pointer;font-family:var(--fnr);transition:background 0.15s;display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:8px;}
+.rb:hover{background:var(--rd);}
+.bb{width:100%;padding:13px;background:white;color:var(--red);border:2px solid var(--red);border-radius:var(--rl2);font-size:14px;font-weight:700;cursor:pointer;font-family:var(--fnr);transition:all 0.15s;display:flex;align-items:center;justify-content:center;gap:8px;}
+.bb:hover{background:var(--rl);}
+.bb:disabled{opacity:0.4;cursor:default;}
+.qh{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;}
+.qct{font-size:11px;font-weight:700;background:var(--rl);color:var(--red);padding:3px 10px;border-radius:20px;}
+.qm{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--g6);}
+.stk{font-size:12px;color:#854F0B;font-weight:700;}
+.pb{height:5px;background:var(--g2);border-radius:3px;margin-bottom:1.25rem;overflow:hidden;}
+.pf{height:100%;background:var(--red);border-radius:3px;transition:width 0.35s;}
+.qcd{background:white;border:1px solid var(--g2);border-radius:var(--rl2);padding:1.25rem;margin-bottom:1rem;box-shadow:var(--sh);}
+.qt{font-size:15px;font-weight:500;line-height:1.7;}
+.ob{width:100%;background:white;border:1.5px solid var(--g2);border-radius:var(--r);padding:12px 14px;text-align:left;cursor:pointer;font-size:13px;color:var(--g8);display:flex;align-items:center;gap:10px;margin-bottom:7px;transition:all 0.15s;font-family:var(--fn);}
+.ob:hover:not(:disabled){border-color:var(--red);background:var(--rl);}
+.ob.ok{background:#EAF3DE;border-color:#639922;color:#27500A;}
+.ob.ng{background:var(--rl);border-color:var(--red);color:var(--rd);}
+.ob.rv{background:#E1F5EE;border-color:#1D9E75;color:#085041;}
+.ob:disabled{cursor:default;}
+.ol{width:24px;height:24px;border-radius:50%;background:var(--g1);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;border:1px solid var(--g2);}
+.ob.ok .ol{background:#9FE1CB;color:#085041;border-color:#5DCAA5;}
+.ob.ng .ol{background:var(--rm);color:var(--rd);border-color:var(--red);}
+.ob.rv .ol{background:#5DCAA5;color:#04342C;border-color:#1D9E75;}
+.bmb{background:none;border:1px solid var(--g2);border-radius:20px;cursor:pointer;font-size:12px;padding:3px 10px;color:var(--g4);transition:all 0.15s;font-family:var(--fn);font-weight:500;}
+.bmb:hover{border-color:#E8A000;color:#E8A000;}
+.bmb.on{color:#E8A000;border-color:#E8A000;background:#FFF9E6;}
+.skb{width:100%;background:none;border:1.5px solid var(--g2);border-radius:var(--r);padding:8px 16px;font-size:12px;color:var(--g6);cursor:pointer;font-family:var(--fn);margin-bottom:8px;transition:all 0.15s;}
+.skb:hover{border-color:var(--g4);color:var(--g8);}
+.fb{border-radius:var(--r);padding:10px 14px;font-size:13px;font-weight:700;display:none;align-items:center;gap:8px;margin-bottom:8px;}
+.fb.on{display:flex;}
+.fbok{background:#EAF3DE;color:#27500A;}
+.fbng{background:var(--rl);color:var(--rd);}
+.fbsk{background:var(--g1);color:var(--g6);}
+.ex{background:var(--g0);border-left:3px solid var(--red);padding:10px 14px;border-radius:0 var(--r) var(--r) 0;font-size:12px;color:var(--g6);line-height:1.7;margin-bottom:10px;display:none;}
+.ex.on{display:block;}
+.nb{position:fixed;bottom:24px;right:20px;width:auto;padding:14px 24px;border-radius:999px;border:none;background:var(--red);color:white;font-size:14px;font-weight:700;cursor:pointer;font-family:var(--fnr);display:none;transition:all 0.2s;z-index:200;box-shadow:0 4px 16px rgba(204,0,0,0.4);}
+.nb-spacer{height:80px;display:none;}
+.nb.on+.nb-spacer,.nb-spacer.on{display:block;}
+.nb:hover{background:var(--rd);}
+.nb.on{display:block;}
+.rh{background:white;border-radius:var(--rl2);padding:1.75rem;text-align:center;margin-bottom:1rem;border:1px solid var(--g2);box-shadow:var(--sh);}
+.rp{font-size:56px;font-weight:700;color:var(--red);font-family:var(--fnr);line-height:1;}
+.rl{font-size:12px;color:var(--g6);margin-bottom:10px;}
+.rm2{font-size:16px;font-weight:700;}
+.rs{font-size:12px;color:var(--g6);margin-top:4px;}
+.rg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:1rem;}
+.ri{background:white;border-radius:var(--r);padding:12px;text-align:center;border:1px solid var(--g2);}
+.rv2{font-size:20px;font-weight:700;}
+.rl3{font-size:10px;color:var(--g6);}
+.ar{display:flex;gap:8px;}
+.bp{flex:1;padding:12px;background:var(--red);color:white;border:none;border-radius:var(--rl2);font-size:13px;font-weight:700;cursor:pointer;font-family:var(--fn);}
+.bp:hover{background:var(--rd);}
+.bs{flex:1;padding:12px;background:white;color:var(--g8);border:1.5px solid var(--g2);border-radius:var(--rl2);font-size:13px;font-weight:500;cursor:pointer;font-family:var(--fn);}
+.bs:hover{background:var(--g1);}
+.rvi{border-radius:var(--r);padding:10px 14px;margin-bottom:6px;}
+.rvc{background:#EAF3DE;border:1px solid #639922;}
+.rvw{background:var(--rl);border:1px solid var(--red);}
+.rvs{background:var(--g1);border:1px solid var(--g4);}
+.alk{background:white;border-radius:var(--rl2);padding:2rem;text-align:center;border:1px solid var(--g2);box-shadow:var(--sh);max-width:320px;margin:0 auto;}
+.ali{font-size:32px;color:var(--g4);margin-bottom:12px;}
+.alt{font-size:16px;font-weight:700;margin-bottom:4px;}
+.als{font-size:12px;color:var(--g6);margin-bottom:1rem;}
+.pwr{display:flex;gap:8px;justify-content:center;flex-wrap:nowrap;}
+.pwi{border:1.5px solid var(--g2);border-radius:var(--r);padding:9px 14px;font-size:14px;font-family:var(--fn);color:var(--g8);width:150px;min-width:0;}
+.pwi:focus{outline:none;border-color:var(--red);}
+.pwb{background:var(--red);color:white;border:none;border-radius:var(--r);padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:var(--fn);}
+.pwb:hover{background:var(--rd);}
+.pwe{font-size:12px;color:var(--red);margin-top:8px;display:none;}
+.atb{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:1rem;}
+.atbl{display:contents;}
+.qcb{font-size:12px;background:var(--rl);color:var(--red);padding:3px 12px;border-radius:20px;font-weight:700;}
+.ab{background:white;color:var(--g8);border:1.5px solid var(--g2);border-radius:var(--r);padding:6px 10px;font-size:11px;font-weight:500;cursor:pointer;font-family:var(--fn);white-space:nowrap;}
+.ab:hover{border-color:var(--red);color:var(--red);}
+.ab.dg{border-color:#F7C1C1;color:#A32D2D;}
+.ab.dg:hover{background:var(--rl);}
+.ab.bl{border-color:#185FA5;color:#185FA5;}
+.ab.bl:hover{background:#E6F1FB;}
+.pb2{background:var(--red);color:white;border:none;border-radius:var(--r);padding:6px 10px;font-size:11px;font-weight:700;cursor:pointer;font-family:var(--fn);display:flex;align-items:center;gap:4px;white-space:nowrap;}
+.pb2:hover{background:var(--rd);}
+.pb2:disabled{background:var(--g4);cursor:default;}
+.ec{background:white;border:1px solid var(--g2);border-radius:var(--rl2);padding:1rem;margin-bottom:10px;box-shadow:var(--sh);}
+.ech{display:flex;align-items:flex-start;gap:8px;margin-bottom:10px;}
+.en{min-width:22px;height:22px;border-radius:50%;background:var(--red);color:white;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;}
+.eb{padding-left:30px;}
+.eo{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:8px;}
+.eor{display:flex;align-items:center;gap:6px;}
+.eol{font-size:11px;font-weight:700;color:var(--g6);min-width:14px;}
+.eoi{flex:1;border:1px solid var(--g2);border-radius:6px;padding:6px 8px;font-size:12px;font-family:var(--fn);color:var(--g8);background:white;}
+.eoi:focus{outline:none;border-color:var(--red);}
+.cr{accent-color:var(--red);}
+.el{font-size:11px;font-weight:700;color:var(--g6);margin-bottom:4px;}
+.eta{width:100%;border:1px solid var(--g2);border-radius:6px;padding:7px 10px;font-size:12px;font-family:var(--fn);color:var(--g8);resize:vertical;line-height:1.5;}
+.eta:focus{outline:none;border-color:var(--red);}
+.etg{font-size:11px;color:var(--g6);cursor:pointer;text-decoration:underline;text-underline-offset:2px;}
+.eea{margin-top:6px;display:none;}
+.edb{background:white;color:#A32D2D;border:1px solid #F7C1C1;border-radius:6px;padding:5px 9px;font-size:11px;cursor:pointer;flex-shrink:0;}
+.edb:hover{background:var(--rl);}
+.ctg{font-size:10px;padding:2px 8px;border-radius:8px;background:var(--rl);color:var(--red);display:inline-block;margin-bottom:6px;font-weight:700;}
+.gs{background:white;border-radius:var(--rl2);padding:1.25rem;margin-bottom:1rem;border:1px solid var(--g2);box-shadow:var(--sh);}
+.gl{font-size:12px;font-weight:700;color:var(--g6);margin-bottom:6px;}
+.gta{width:100%;border:1.5px solid var(--g2);border-radius:var(--r);padding:10px 12px;font-size:13px;font-family:var(--fn);color:var(--g8);resize:vertical;line-height:1.6;}
+.gta:focus{outline:none;border-color:var(--red);}
+.gr{display:flex;align-items:flex-end;gap:10px;flex-wrap:wrap;margin-top:10px;}
+.gi{border:1.5px solid var(--g2);border-radius:var(--r);padding:7px 12px;font-size:12px;font-family:var(--fn);color:var(--g8);}
+.gi:focus{outline:none;border-color:var(--red);}
+.gb{background:var(--red);color:white;border:none;border-radius:var(--r);padding:8px 16px;font-size:13px;font-weight:700;cursor:pointer;font-family:var(--fn);}
+.gb:hover{background:var(--rd);}
+.gb:disabled{background:var(--g4);cursor:default;}
+.sb{background:var(--g0);border:1px solid var(--g2);border-radius:var(--r);padding:10px 14px;font-size:12px;color:var(--g6);margin-bottom:1rem;display:flex;align-items:center;gap:8px;}
+.sd{width:7px;height:7px;border-radius:50%;flex-shrink:0;}
+.sl2{background:#EF9F27;animation:pl 1s infinite;}
+.sd2{background:#639922;}
+.se{background:var(--red);}
+@keyframes pl{0%,100%{opacity:1}50%{opacity:0.4}}
+.alb{background:var(--red);color:white;border:none;border-radius:var(--r);padding:7px 14px;font-size:12px;font-weight:700;cursor:pointer;font-family:var(--fn);}
+.alb:hover{background:var(--rd);}
+.emp{text-align:center;padding:2.5rem 1rem;color:var(--g6);font-size:13px;}
+.emi{font-size:32px;color:var(--g4);margin-bottom:10px;}
+#cc{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;display:none;}
+.th-btn{width:32px;height:32px;border-radius:50%;border:3px solid transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform 0.15s;position:relative;flex-shrink:0;}
+.th-btn:hover{transform:scale(1.1);}
+.th-btn.on{border-color:var(--g8);}
+.th-chk{position:absolute;font-size:13px;color:white;display:none;}
+.th-btn.on .th-chk::before{content:'✓';}
+.th-btn.on .th-chk{display:block;}
+.tgl{width:40px;height:22px;background:var(--g2);border:none;border-radius:11px;cursor:pointer;position:relative;transition:background 0.2s;flex-shrink:0;}
+.tgl.on{background:var(--red);}
+.tgl-k{position:absolute;top:2px;left:2px;width:18px;height:18px;background:white;border-radius:50%;transition:left 0.2s;display:block;}
+.tgl.on .tgl-k{left:20px;}
+.fsb{flex:1;padding:7px 4px;border:1.5px solid var(--g2);border-radius:var(--r);background:white;cursor:pointer;font-size:12px;font-weight:700;font-family:var(--fn);color:var(--g6);transition:all 0.15s;}
+.fsb.on{border-color:var(--red);color:var(--red);background:var(--rl);}
+.lvl-row{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
+.lvl-num{font-size:11px;font-weight:700;color:var(--red);min-width:36px;}
+.lvl-inp{flex:1;border:1px solid var(--g2);border-radius:6px;padding:7px 10px;font-size:12px;font-family:var(--fn);color:var(--g8);}
+.lvl-inp:focus{outline:none;border-color:var(--red);}
+html{font-size:15px;}
+html.fs-s{font-size:12px;}
+html.fs-l{font-size:18px;}
+body{font-size:1rem;}
+html.fs-s *{font-size:inherit;}
+html.fs-l *{font-size:inherit;}
+html.fs-s .wtl{font-size:1.1rem!important;}
+html.fs-l .wtl{font-size:1.3rem!important;}
+html.fs-s .qt{font-size:0.93rem!important;}
+html.fs-l .qt{font-size:1.1rem!important;line-height:1.7!important;}
+html.fs-s .sv{font-size:1.4rem!important;}
+html.fs-l .sv{font-size:1.8rem!important;}
+.tmr-bar{height:4px;background:var(--g2);border-radius:2px;margin-bottom:12px;overflow:hidden;}
+.tmr-opt{padding:5px 8px;border:1.5px solid var(--g2);border-radius:8px;background:white;font-size:11px;font-weight:600;font-family:var(--fn);color:var(--g6);cursor:pointer;white-space:nowrap;transition:all .15s;}
+.tmr-opt.on{border-color:var(--red);color:var(--red);background:var(--rl);}
+.src-tab{padding:6px 12px;border:1.5px solid var(--g2);border-radius:8px;background:white;font-size:11px;font-weight:600;font-family:var(--fn);color:var(--g6);cursor:pointer;display:flex;align-items:center;gap:5px;transition:all .15s;}
+.src-tab.on{border-color:var(--red);color:var(--red);background:var(--rl);}
+#tmr-custom::placeholder{color:var(--g4);opacity:1;}
+.tmr-f{height:100%;background:var(--red);border-radius:2px;transition:width 1s linear;}
+.tmr-txt{font-size:11px;color:var(--g6);text-align:right;margin-bottom:4px;}
+</style>
+</head>
+<body>
+<div class="app">
+<div class="hdr">
+  <div class="hbr">
+    <div class="hlo" style="background:transparent;overflow:visible"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect x="2" y="5" width="10" height="14" rx="2" fill="white"/>
+  <rect x="3.5" y="7.5" width="7" height="2" rx="1" fill="#CC0000" opacity="0.45"/>
+  <rect x="3.5" y="10.5" width="7" height="2" rx="1" fill="#CC0000" opacity="0.45"/>
+  <rect x="20" y="5" width="10" height="14" rx="2" fill="white"/>
+  <rect x="21.5" y="7.5" width="7" height="2" rx="1" fill="#CC0000" opacity="0.45"/>
+  <rect x="21.5" y="10.5" width="7" height="2" rx="1" fill="#CC0000" opacity="0.45"/>
+  <rect x="13" y="5" width="6" height="14" rx="1.5" fill="white" opacity="0.55"/>
+  <circle cx="23" cy="25" r="6" fill="white"/>
+  <path d="M19.5 25 L22 27.5 L27.5 21" fill="none" stroke="#CC0000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div>
+    <div onclick="goTab(0)" style="cursor:pointer"><div class="htl">商品知識クイズ</div><div class="hsb">兵庫ヤクルト販売 スタッフ学習ツール</div></div>
+  </div>
+  <button class="atg" id="atg" onclick="toggleAdmin()"><i class="ti ti-lock"></i> 管理者</button>
+</div>
+<div class="nav">
+  <button class="ntb on" id="n0" onclick="goTab(0)"><i class="ti ti-home"></i> ホーム</button>
+  <button class="ntb" id="n1" onclick="goTab(1)"><i class="ti ti-device-gamepad-2"></i> クイズ</button>
+  <button class="ntb" id="n3" onclick="goTab(3)"><i class="ti ti-adjustments-horizontal"></i> 設定</button>
+
+</div>
+<div class="sec on" id="s0">
+  <div class="wc"><div class="wtl">こんにちは！今日も学習しよう</div><div class="wsb">カテゴリを選んで過去問に挑戦するか、ランダム出題で全範囲を復習できます。</div></div>
+  <div class="sg">
+    <div class="si"><div class="sv" id="ht">0</div><div class="sl">回答数</div></div>
+    <div class="si"><div class="sv" id="ha">&#x2014;</div><div class="sl">正答率</div></div>
+    <div class="si"><div class="sv" id="hx">0</div><div class="sl">XP</div></div>
+  </div>
+  <div class="xc">
+    <div class="xh"><span class="xlv" id="xlv">Lv.1 新人スタッフ</span><span class="xpt" id="xpt">0/100 XP</span></div>
+    <div class="xb"><div class="xf" id="xf" style="width:0%"></div></div>
+  </div>
+  <div class="cll">カテゴリを選ぶ</div>
+  <div class="cgr" id="cgr"></div>
+  <div class="wc" style="margin-bottom:10px;padding:12px 14px">
+  <div style="font-size:13px;font-weight:700;color:var(--g8);margin-bottom:8px"><i class="ti ti-clock" style="font-size:13px;vertical-align:-1px;margin-right:4px"></i>タイマー <span style="font-size:10px;color:var(--g6);font-weight:400">1問あたりの制限時間</span></div>
+  <div style="display:flex;align-items:center;gap:6px;flex-wrap:nowrap;overflow-x:auto">
+    <button class="tmr-opt" data-v="0" onclick="setTimerHome(0)">なし</button>
+    <button class="tmr-opt" data-v="10" onclick="setTimerHome(10)">10秒</button>
+    <button class="tmr-opt" data-v="30" onclick="setTimerHome(30)">30秒</button>
+    <button class="tmr-opt" data-v="60" onclick="setTimerHome(60)">60秒</button>
+    <input type="text" inputmode="numeric" id="tmr-custom" placeholder="カスタム"
+      style="width:68px;border:1.5px solid var(--g2);border-radius:8px;padding:4px 6px;font-size:11px;font-family:var(--fn);color:var(--g8);text-align:center;flex-shrink:0"
+      oninput="setTimerCustom()">
+  </div>
+</div>
+<button class="rb" onclick="startQuiz('all')"><i class="ti ti-arrows-shuffle"></i> ランダム出題（全カテゴリ）</button>
+  <button class="bb" id="bmhb" onclick="startBmQuiz()"><i class="ti ti-bookmark"></i> ブックマークした問題のみ出題</button>
+</div>
+<div class="sec" id="s1">
+  <div id="qa"><div class="emp"><div class="emi"><i class="ti ti-device-gamepad-2"></i></div>ホームでカテゴリを選んで始めてください</div></div>
+</div>
+<div class="sec" id="s2">
+  <div id="alv">
+    <div class="alk">
+      <div class="ali"><i class="ti ti-lock"></i></div>
+      <div class="alt">管理者ログイン</div>
+      <div class="als">パスワードを入力してください</div>
+      <div class="pwr">
+        <input type="password" class="pwi" id="pwi" placeholder="パスワード" onkeydown="if(event.key==='Enter')chkPw()">
+        <button class="pwb" onclick="chkPw()">ログイン</button>
+      </div>
+      <div class="pwe" id="pwe">パスワードが違います</div>
+    </div>
+  </div>
+  <div id="amv" style="display:none">
+    <div style="display:flex;border-bottom:2px solid var(--g2);margin-bottom:16px;gap:0">
+      <button class="atab on" id="at0" onclick="goATab(0)">問題編集</button>
+
+      <button class="atab" id="at1" onclick="goATab(1)">カテゴリ</button>
+      <button class="atab" id="at2" onclick="goATab(2)">文言</button>
+      <button class="atab" id="at3" onclick="goATab(3)">称号</button>
+    </div>
+    <div id="aev">
+      <div class="atb">
+        <div class="atbl">
+          <span class="qcb" id="aqc">0問</span>
+          <button class="ab" onclick="addBlank()"><i class="ti ti-plus"></i> 手動追加</button>
+          <button class="ab" onclick="saveEdits()" style="border-color:var(--red);color:var(--red)"><i class="ti ti-device-floppy"></i> 保存</button>
+
+          <button class="ab bl" onclick="exportHtml()"><i class="ti ti-download"></i> HTMLを書き出す</button>
+          <button class="pb2" id="apb" onclick="startQuiz('all')" disabled><i class="ti ti-player-play"></i> 試す</button>
+        </div>
+      </div>
+      <div id="aql"></div>
+      <div id="aemp" class="emp" style="display:none"><div class="emi"><i class="ti ti-writing"></i></div>問題を追加してください</div>
+    </div>
+    <div id="acv" style="display:none">
+      <div class="wc" style="margin-bottom:10px">
+        <div class="wtl" style="margin-bottom:4px">カテゴリ設定</div>
+        <div style="font-size:11px;color:var(--g6);margin-bottom:12px">アイコン・表示順を設定できます</div>
+        <div id="cat-list"></div>
+        <button class="rb" style="margin-top:8px;padding:9px" onclick="saveCatSettings()"><i class="ti ti-device-floppy"></i> カテゴリ設定を保存</button>
+      </div>
+      <div class="wc">
+        <div class="wtl" style="margin-bottom:8px">問題の並び替え</div>
+        <select class="gi" id="sort-cat-sel" style="width:100%;margin-bottom:8px" onchange="renderCatSort()">
+          <option value="">カテゴリを選択...</option>
+        </select>
+        <div id="sort-list"></div>
+      </div>
+    </div>
+    <div id="atv" style="display:none">
+      <div class="wc">
+        <div class="wtl" style="margin-bottom:12px">文言・テキスト設定</div>
+        <div id="txt-fields"></div>
+        <button class="rb" style="margin-top:8px" onclick="saveTxts()"><i class="ti ti-device-floppy"></i> 文言を保存</button>
+      </div>
+    </div>
+    <div id="alvv" style="display:none">
+      <div class="wc">
+        <div class="wtl" style="margin-bottom:4px">称号カスタマイズ</div>
+        <div style="font-size:11px;color:var(--g6);margin-bottom:10px">各レベルの称号名・必要XPを変更できます</div>
+        <div id="lvl-edit" style="max-height:320px;overflow-y:auto;padding-right:4px"></div>
+        <div style="display:flex;gap:8px;margin-top:10px">
+          <button class="rb" style="flex:1;padding:9px" onclick="saveLvls()"><i class="ti ti-device-floppy"></i> 保存</button>
+          <button class="bb" style="padding:9px;font-size:12px" onclick="resetLvlsAdmin()"><i class="ti ti-refresh"></i> リセット</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sec" id="s3">
+<div class="wc" style="padding:12px 14px;margin-bottom:8px">
+  <div style="font-size:11px;font-weight:700;color:var(--g4);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px">テーマ・表示</div>
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+    <span style="font-size:12px;color:var(--g6)">カラー</span>
+    <div style="display:flex;gap:6px;align-items:center" id="theme-grid">
+      <button class="th-btn" data-theme="" style="background:#CC0000" onclick="setTheme('')" title="赤"><span class="th-chk" id="tc-"></span></button>
+      <button class="th-btn" data-theme="theme-blue" style="background:#1565C0" onclick="setTheme('theme-blue')" title="ブルー"><span class="th-chk" id="tc-theme-blue"></span></button>
+      <button class="th-btn" data-theme="theme-green" style="background:#2E7D32" onclick="setTheme('theme-green')" title="グリーン"><span class="th-chk" id="tc-theme-green"></span></button>
+      <button class="th-btn" data-theme="theme-purple" style="background:#6A1B9A" onclick="setTheme('theme-purple')" title="パープル"><span class="th-chk" id="tc-theme-purple"></span></button>
+      <button class="th-btn" style="background:linear-gradient(135deg,#CC0000,#1565C0)" onclick="setThemeCustom()" title="カスタム"><i class="ti ti-palette" style="color:white;font-size:11px"></i></button>
+    </div>
+  </div>
+  <div style="display:flex;gap:0;margin-bottom:8px">
+    <span style="font-size:12px;color:var(--g6);flex:1;line-height:22px">ダークモード</span>
+    <button class="tgl" id="dark-tgl" onclick="toggleDark()"><span class="tgl-k" id="dark-k"></span></button>
+    <span style="font-size:12px;color:var(--g6);margin:0 10px 0 16px;line-height:22px">文字</span>
+    <div style="display:flex;gap:4px">
+      <button class="fsb" id="fs-s" onclick="setFs('s')" style="width:32px;padding:3px">小</button>
+      <button class="fsb" id="fs-m" onclick="setFs('m')" style="width:32px;padding:3px">中</button>
+      <button class="fsb" id="fs-l" onclick="setFs('l')" style="width:32px;padding:3px">大</button>
+    </div>
+  </div>
+  <div style="border-top:1px solid var(--g2);margin:8px 0"></div>
+  <div style="font-size:11px;font-weight:700;color:var(--g4);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px">クイズ設定</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:8px">
+    <div style="display:flex;align-items:center;justify-content:space-between;background:var(--g1);border-radius:8px;padding:6px 10px">
+      <span style="font-size:11px;color:var(--g6)">出題数</span>
+      <select class="gi" id="q-count-sel" onchange="saveQCount()" style="border:none;background:transparent;font-size:12px;padding:0;width:48px;text-align:right">
+        <option value="0">全問</option>
+        <option value="5">5問</option>
+        <option value="10">10問</option>
+        <option value="15">15問</option>
+        <option value="20">20問</option>
+      </select>
+    </div>
+
+  </div>
+  <div style="display:flex;align-items:center;justify-content:space-between">
+    <span style="font-size:12px;color:var(--g6)">効果音</span>
+    <button class="tgl" id="snd-tgl" onclick="toggleSnd()"><span class="tgl-k" id="snd-k"></span></button>
+  </div>
+  <div style="border-top:1px solid var(--g2);margin:8px 0"></div>
+  <div style="font-size:11px;font-weight:700;color:var(--g4);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px">データ管理</div>
+  <div style="display:flex;gap:8px">
+    <button class="bb" onclick="resetScore()" style="flex:1;padding:7px;border-color:var(--red);color:var(--red);font-size:11px"><i class="ti ti-trash"></i> 記録リセット</button>
+    <button class="bb" onclick="resetBm()" style="flex:1;padding:7px;font-size:11px"><i class="ti ti-bookmark-off"></i> BM削除</button>
+  </div>
+</div>
+<canvas id="cc"></canvas>
+<script>
+var QS=[
+{id:1,cat:"その他",q:"ヤクルトの創始者は誰ですか？",opts:["北里柴三郎博士","代田稔博士","野口英世博士","パスツール博士"],ans:1,exp:"ヤクルトの創始者は代田稔博士です。1935年（昭和10年）に福岡市で製造・販売を開始しました。"},
+{id:2,cat:"その他",q:"ヤクルトの製造・販売が開始されたのはいつ、どこですか？",opts:["昭和5年・東京","昭和10年・福岡","昭和15年・大阪","昭和20年・京都"],ans:1,exp:"昭和10年（1935年）に福岡市で製造・販売が開始されました。"},
+{id:3,cat:"その他",q:"「代田イズム」の3つの柱に含まれないものはどれですか？",opts:["予防医学","健腸長寿","誰もが手に入れられる価格で","科学的根拠の公開"],ans:3,exp:"代田イズムの3つの柱は「予防医学」「健腸長寿」「誰もが手に入れられる価格での提供」です。"},
+{id:4,cat:"その他",q:"「小腸」のはたらきとして正しいものはどれですか？",opts:["水分を吸収して便を作る","食べ物を消化し栄養素を吸収する","有害菌を退治する","胃酸を分泌する"],ans:1,exp:"小腸は食べ物を消化し、栄養素を吸収する器官です。大腸は水分を吸収して便を作り体外へ排出します。"},
+{id:5,cat:"その他",q:"理想的な便の色はどれですか？",opts:["白っぽい","黒っぽい","黄色っぽい茶色","緑色"],ans:2,exp:"理想的な便はバナナ状で、水分量70〜80%、黄色っぽい茶色、においが少なく、便器に浮くものが理想です。"},
+{id:6,cat:"その他",q:"私たちのおなかの中には何種類、何個の細菌が住んでいますか？",opts:["100種類・10兆個","500種類・50兆個","1000種類・100兆個","2000種類・200兆個"],ans:2,exp:"おなかの中には1000種類・100兆個もの細菌が住んでいます。"},
+{id:7,cat:"その他",q:"酸素に弱い性質なのはどちらですか？",opts:["乳酸菌 シロタ株","ビフィズス菌 BY株","どちらも同じ","どちらも弱くない"],ans:1,exp:"ビフィズス菌 BY株は酸素に弱い性質があります。そのためミルミルは5層構造の液面下充填法で菌を守っています。"},
+{id:8,cat:"その他",q:"脳と腸が互いに影響し合うことを何といいますか？",opts:["脳腸共有","脳腸相関","脳腸依存","脳腸共鳴"],ans:1,exp:"脳と腸が互いに影響し合うことを「脳腸相関」といいます。"},
+{id:9,cat:"その他",q:"悪い菌の代表として正しい組み合わせはどれですか？",opts:["ビフィズス菌・大腸菌","黄色ブドウ球菌・ウェルシュ菌","NK細胞・白血球","乳酸菌・ビフィズス菌"],ans:1,exp:"悪い菌の代表は「黄色ブドウ球菌」と「ウェルシュ菌」です。良い菌の代表は乳酸菌とビフィズス菌です。"},
+{id:10,cat:"その他",q:"乳酸菌 シロタ株はどこではたらきますか？",opts:["胃","小腸","大腸","肝臓"],ans:1,exp:"乳酸菌 シロタ株は小腸ではたらきます。ビフィズス菌 BY株は大腸ではたらきます。"},
+{id:11,cat:"その他",q:"「免疫機能」について正しいものはどれですか？",opts:["免疫機能のピークは20歳で年齢とともに低下","NK細胞の強さを表すのはNK生成","免疫機能を低下させる原因は「加齢」と「生活習慣」","乳酸菌 シロタ株のはたらきは「免疫調剤作用」"],ans:2,exp:"免疫機能を低下させる原因は「加齢」と「生活習慣」です。"},
+{id:12,cat:"商品知識（乳製品）",q:"ヤクルト400の乳酸菌 シロタ株は1本に何億個入っていますか？",opts:["200億個","400億個","1000億個","120億個"],ans:1,exp:"ヤクルト400には乳酸菌 シロタ株が400億個。免疫機能のバランスを整えます。特定保健用食品（トクホ）取得。"},
+{id:13,cat:"商品知識（乳製品）",q:"ヤクルト400LTはヤクルト400と比べてカロリーが何％カットですか？",opts:["20%","30%","40%","50%"],ans:1,exp:"ヤクルト400LTはヤクルト400比でカロリーが30%カットです。"},
+{id:14,cat:"商品知識（乳製品）",q:"ヤクルト400Wが取得しているのはどれですか？",opts:["特定保健用食品","栄養機能食品","機能性表示食品","医薬品"],ans:2,exp:"ヤクルト400Wは機能性表示食品を取得。乳酸菌 シロタ株400億個とガラクトオリゴ糖5gがWで摂れます。"},
+{id:15,cat:"商品知識（乳製品）",q:"ミルミルSに含まれるビフィズス菌 BY株は1本に何億個以上ですか？",opts:["30億個","50億個","100億個","120億個"],ans:3,exp:"ミルミルSにはビフィズス菌 BY株が120億個以上。妊産婦に不足しがちなビタミンB12・鉄分・葉酸も摂れます。"},
+{id:16,cat:"商品知識（乳製品）",q:"BF-1が取得している機能性表示食品の対象部位はどこですか？",opts:["腸","肝臓","胃","血管"],ans:2,exp:"BF-1は「胃」に関する機能性表示食品。B.ビフィダム Y株が30億個入り、食後の胃の負担をやわらげます。"},
+{id:17,cat:"商品知識（乳製品）",q:"Yakult1000は「ヤクルト史上最高○○」ですが○○に入るのはどれですか？",opts:["品質","種類","密度","効果"],ans:2,exp:"Yakult1000は乳酸菌 シロタ株1000億個含む「ヤクルト史上最高密度」の商品です。"},
+{id:18,cat:"商品知識（乳製品）",q:"Yakult1000 糖質オフはYakult1000と比べてカロリーと糖類が何%オフですか？",opts:["カロリー20%・糖類30%オフ","カロリー32%・糖類44%オフ","カロリー40%・糖類50%オフ","カロリー50%・糖類60%オフ"],ans:1,exp:"Yakult1000 糖質オフはYakult1000比でカロリー32%・糖類44%オフです。"},
+{id:19,cat:"商品知識（ジュース・清涼）",q:"プレティオはどのような方におすすめですか？",opts:["便秘気味の方","血糖値が高めの方","血圧が高めの方","ストレスを感じやすい方"],ans:2,exp:"プレティオはGABA（γ-アミノ酪酸）が1本に10mg以上入っており、血圧が高めな方におすすめです。"},
+{id:20,cat:"接客・販売知識",q:"糖尿病のお客様からヤクルトを飲んでも大丈夫か聞かれたとき、正しい対応はどれですか？",opts:["糖尿病なので飲まない方が良いとお伝えする","糖質・カロリーの制限範囲内で飲んでよく、不安なら主治医に相談をすすめる","砂糖不使用のものだけすすめる","ヤクルトレディに相談するようすすめる"],ans:1,exp:"糖質・カロリーの制限範囲内で飲んでいただき、不安な場合は主治医へのご相談をすすめましょう。"},
+{id:21,cat:"接客・販売知識",q:"食品（お酒以外）の消費税率はいくつですか？",opts:["5%","8%","10%","12%"],ans:1,exp:"食品（お酒以外）の消費税率は8%の軽減税率が適用されます。食品以外（お酒含む）は10%です。"},
+{id:22,cat:"接客・販売知識",q:"なぜヤクルトの乳製品は1日1本を目安にすすめるのですか？正しい理由の組み合わせはどれですか？",opts:["おなかに定着しないから・腸内環境が悪い菌でいっぱいだから","おなかに定着しないから・腸内環境がさまざまな要因で変化するから","良い菌が消化吸収されるから・腸内環境が常に安定しているから","良い菌が消化吸収されるから・悪い菌でいっぱいだから"],ans:1,exp:"乳酸菌 シロタ株はおなかに定着しないため継続摂取が必要で、腸内環境はさまざまな要因で変化するためです。"},
+{id:23,cat:"商品知識（化粧品）",q:"ヤクルト化粧品の赤色シリーズの正しい名前はどれですか？",opts:["PARABIO（パラビオ）","SHIROTA（シロタ）","ラクトデュウS.E.","ニュウサンS.E."],ans:2,exp:"ヤクルト化粧品の赤色シリーズは「ラクトデュウS.E.」です。"},
+{id:24,cat:"その他",q:"私たちのおなかの中には何種類・何個の腸内細菌が住んでいますか？",opts:["100種類・10兆個", "500種類・50兆個", "1000種類・100兆個", "2000種類・200兆個"],ans:2,exp:"おなかの中にはおよそ1000種類・約100兆個もの腸内細菌が住んでいます。"},
+{id:25,cat:"その他",q:"腸内細菌を一列に並べると地球何周分になりますか？",opts:["約1周", "約2周半", "約5周", "約10周"],ans:1,exp:"腸内細菌を一列に並べると地球2周半にもなります。大きさは0.001mmです。"},
+{id:26,cat:"その他",q:"腸内細菌のバランスのことを何と呼びますか？",opts:["腸内マップ", "腸内フローラ", "腸内ネットワーク", "腸内エコシステム"],ans:1,exp:"腸内細菌のバランスのことを「腸内フローラ」と呼びます。"},
+{id:27,cat:"その他",q:"腸内細菌は何種類に分かれますか？正しい組み合わせを選んでください。",opts:["有用菌・有害菌の2種類", "有用菌・中間的な菌・有害菌の3種類", "善玉菌・悪玉菌の2種類", "有用菌・日和見菌・有害菌・毒素菌の4種類"],ans:1,exp:"腸内細菌は「有用菌・中間的な菌（日和見菌）・有害菌」の3種類に分かれています。"},
+{id:28,cat:"その他",q:"有用菌のエサとなるものはどれですか？",opts:["動物性たんぱく質", "脂質", "糖（オリゴ糖など）", "ビタミンC"],ans:2,exp:"有用菌（乳酸菌・ビフィズス菌）のエサは糖（オリゴ糖など）です。有害菌のエサは動物性たんぱく質（お肉など）です。"},
+{id:29,cat:"その他",q:"有害菌の代表として正しい組み合わせはどれですか？",opts:["乳酸菌・ビフィズス菌", "黄色ブドウ球菌・ウェルシュ菌", "NK細胞・白血球", "大腸菌・ノロウイルス"],ans:1,exp:"有害菌の代表は「黄色ブドウ球菌」と「ウェルシュ菌」です。エサは動物性たんぱく質で、有害物質や発がん性物質をつくります。"},
+{id:30,cat:"その他",q:"健康的な便の水分量はどれくらいですか？",opts:["約50%", "約60%", "約70%", "約80%"],ans:2,exp:"健康的な便の水分量は約70%です。形は半練り状・バナナ状、色は黄色っぽい茶色が理想です。"},
+{id:31,cat:"その他",q:"乳酸菌 シロタ株の形はどれですか？",opts:["球状", "棒状", "Y・V字状", "らせん状"],ans:1,exp:"乳酸菌 シロタ株（ラクトバチルス パラカゼイ シロタ株）は棒状の形をしています。"},
+{id:32,cat:"その他",q:"乳酸菌 シロタ株が主に作るものはどれですか？",opts:["乳酸のみ", "酢酸のみ", "乳酸と酢酸", "アルコール"],ans:0,exp:"乳酸菌 シロタ株が主に作るのは「乳酸」です。ビフィズス菌 BY株は「乳酸と酢酸」を作ります。"},
+{id:33,cat:"その他",q:"乳酸菌 シロタ株はどこで働きますか？",opts:["胃", "小腸", "大腸", "肝臓"],ans:1,exp:"乳酸菌 シロタ株は小腸で働きます。ビフィズス菌 BY株は大腸で働きます。"},
+{id:34,cat:"その他",q:"ビフィズス菌 BY株の正式名称はどれですか？",opts:["ラクトバチルス パラカゼイ シロタ株", "ビフィドバクテリウム ブレーベ ヤクルト株", "ストレプトコッカス サーモフィラス", "ラクトバチルス アシドフィラス"],ans:1,exp:"ビフィズス菌 BY株の正式名称は「ビフィドバクテリウム ブレーベ ヤクルト株」です。"},
+{id:35,cat:"その他",q:"ビフィズス菌 BY株が酸素に弱い性質を持つため、ミルミルに採用されている技術はどれですか？",opts:["真空充填法", "5層構造・液面下充填法", "窒素充填法", "低温殺菌充填法"],ans:1,exp:"ビフィズス菌 BY株は酸素に弱いため、ミルミルには5層構造の容器と液面下充填法でビフィズス菌を守っています。"},
+{id:36,cat:"その他",q:"乳酸菌 シロタ株とビフィズス菌 BY株の生育最適温度はどれですか？",opts:["25℃", "30℃", "37℃", "42℃"],ans:2,exp:"乳酸菌 シロタ株・ビフィズス菌 BY株どちらも生育最適温度は37℃です。これは人の体温に近い温度です。"},
+{id:37,cat:"その他",q:"ヤクルトのプロバイオティクスのはたらきとして正しくないものはどれですか？",opts:["便性を改善する", "有害菌の腸内増殖を防ぐ", "有害物質の生成を抑え腸内腐敗を防ぐ", "血糖値を直接下げる"],ans:3,exp:"プロバイオティクスの3つのはたらきは①便性改善②有害菌の増殖を防ぐ③有害物質の生成を抑え腸内腐敗を防ぐ、です。血糖値を直接下げる効果はありません。"},
+{id:38,cat:"その他",q:"有用菌が産生する乳酸・酢酸の役割として正しいものはどれですか？",opts:["腸内を弱アルカリ性に保つ", "腸内の有害菌の増殖を抑える", "胃酸の分泌を促進する", "免疫細胞を破壊する"],ans:1,exp:"乳酸や酢酸は腸内の有害菌の増殖を抑えます。腸内が有用菌で優勢になると病原菌の感染から腸を守ることもできます。"},
+{id:39,cat:"商品知識（化粧品）",q:"パラビオ（PARABIO）のブランドコンセプトとして正しいものはどれですか？",opts:["毛穴ケアで透明感のある肌へ", "シワ改善でハリつやあふれる肌へ", "美白で均一な肌へ", "皮脂コントロールでさらさらの肌へ"],ans:1,exp:"パラビオのブランドコンセプトは「シワ改善で、ハリつや、開花シワをケアしながら、限りなくハリつやあふれるお肌へ」です。"},
+{id:40,cat:"商品知識（化粧品）",q:"パラビオ ACローションの容量はどれですか？",opts:["80mL", "100mL", "130mL", "150mL"],ans:2,exp:"パラビオ ACローションの容量は130mLです。価格は11,000円（税込）です。"},
+{id:41,cat:"商品知識（化粧品）",q:"パラビオ ACローションの有効成分の組み合わせとして正しいものはどれですか？",opts:["ビタミンC・コラーゲン", "ナイアシンアミド・グリチルリチン酸２K", "レチノール・ヒアルロン酸", "セラミド・アルブチン"],ans:1,exp:"パラビオ ACローションの有効成分はナイアシンアミドとグリチルリチン酸２Kです。医薬部外品です。"},
+{id:42,cat:"商品知識（化粧品）",q:"パラビオ ACローションに含まれる「S.E.（シロタエッセンス）」とは何ですか？",opts:["乳酸菌発酵エキス（ミルク）", "シロタ株そのもの", "植物由来の保湿成分", "ヒアルロン酸の別名"],ans:0,exp:"S.E.（シロタエッセンス）とは乳酸菌発酵エキス（ミルク）のことで、成分名はホエイ（２）です。"},
+{id:43,cat:"商品知識（化粧品）",q:"パラビオ ACローションの使い方として正しいものはどれですか？",opts:["手のひらで直接塗布する", "コットンに500円硬貨大をふくませてなじませる", "化粧水の後に使用する", "パック後に使用する"],ans:1,exp:"適量（500円硬貨大）をコットンにふくませ、お顔全体にまんべんなくなじませます。洗顔やマッサージのあとに使用します。"},
+{id:44,cat:"商品知識（化粧品）",q:"パラビオ ACシリーズのクレンジングと洗顔料の価格（税込）はそれぞれいくらですか？",opts:["各5,500円", "各7,700円", "各11,000円", "各8,800円"],ans:1,exp:"パラビオ ACクレンジング（120g）とパラビオ ACウォッシング（120g）はどちらも7,700円（税込）です。"},
+{id:45,cat:"商品知識（化粧品）",q:"パラビオ ACシリーズでシワ改善効果を持つ商品の種類として正しいものはどれですか？",opts:["クレンジング・洗顔のみ", "化粧水・乳液・クリーム・マッサージマスクなどスキンケア全般", "マスクのみ", "クリームのみ"],ans:1,exp:"パラビオ ACシリーズはローション・ミルク・クリーム・クレンジング・ウォッシング・マッサージマスクの計8アイテムがあります。"},
+{id:46,cat:"商品知識（化粧品）",q:"パラビオ ACミルクには何種類のタイプがありますか？",opts:["1種類", "2種類", "3種類", "4種類"],ans:1,exp:"パラビオ ACミルクはⅠ（モイスチュア）とⅡ（モイスチュアリッチ）の2種類があります。どちらも110mL・11,000円（税込）です。"},
+{id:47,cat:"商品知識（化粧品）",q:"パラビオ ACローションはどのような薬事区分に該当しますか？",opts:["化粧品", "医薬部外品", "第3類医薬品", "指定医薬部外品"],ans:1,exp:"パラビオ ACローションは医薬部外品です。有効成分のナイアシンアミド・グリチルリチン酸2Kがシワ改善に働きます。"},
+{id:48,cat:"商品知識（化粧品）",q:"パラビオ ACクリームの容量はどれですか？",opts:["20g", "30g", "40g", "50g"],ans:2,exp:"パラビオ ACクリームの容量は40gで、価格は11,000円（税込）です。"},
+{id:49,cat:"商品知識（ジュース・清涼）",q:"ヤクルトのハイパーケールはどんな機能を持つ食品ですか？",opts:["栄養機能食品", "機能性表示食品", "特定保健用食品", "一般食品"],ans:1,exp:"ハイパーケールは機能性表示食品です。届出番号は消費者庁の機能性表示食品届出データベースに登録されています。"},
+{id:50,cat:"商品知識（ジュース・清涼）",q:"ハイパーケールに含まれる機能性関与成分はどれですか？",opts:["ビタミンC", "グルコラファニン", "乳酸菌 シロタ株", "ヒアルロン酸"],ans:1,exp:"ハイパーケールの機能性関与成分は「グルコラファニン」です。フィトケミカルの一種で、アメリカで長年使われている成分です。"},
+{id:51,cat:"商品知識（ジュース・清涼）",q:"ハイパーケールのグルコラファニンはどの野菜から取られていますか？",opts:["ほうれん草", "ケール", "ブロッコリー", "小松菜"],ans:1,exp:"ハイパーケールはケールの新品種「ハイパー（kale）」を使用しています。ケールにはβ-カロテンやポリフェノールが含まれ、独自の品種からグルコラファニンを含む品として開発されました。"},
+{id:52,cat:"商品知識（ジュース・清涼）",q:"ハイパーケールの届出表示（機能性）として正しいものはどれですか？",opts:["免疫力を高める", "肌のうるおいを守る（おなかの調子を整える）", "血圧を下げる", "骨を強くする"],ans:1,exp:"ハイパーケールの機能性表示は「肌のうるおいを守る（おなかを整える）」です。グルコラファニンにより皮膚の水分量の低下を抑えることが確認されています。"},
+{id:53,cat:"商品知識（ジュース・清涼）",q:"ハイパーケールの1本あたりのグルコラファニン含有量はどれですか？",opts:["5mg", "10mg", "20mg", "50mg"],ans:2,exp:"ハイパーケール1本（4g）にはグルコラファニンが20mg含まれています。グルコラファニン20mgは生ケール約1.1束分に相当します。"},
+{id:54,cat:"商品知識（ジュース・清涼）",q:"ハイパーケールの形状と1回分の量として正しいものはどれですか？",opts:["液体タイプ・100mL", "粉末スティックタイプ・4g×30包", "タブレットタイプ・2粒", "ゼリータイプ・100g"],ans:1,exp:"ハイパーケールは粉末スティックタイプで、1包4g×30包入りです。1回2包を目安に200mL程度の水に溶かして飲みます。"},
+{id:55,cat:"商品知識（ジュース・清涼）",q:"ハイパーケール（120g・4g×30包）の参考価格はいくらですか？",opts:["1,980円（税別）", "2,500円（税別）", "3,750円（税別）", "5,000円（税別）"],ans:2,exp:"ハイパーケール（120g・4g×30包）の参考価格は3,750円（税別）です。"},
+{id:56,cat:"商品知識（ジュース・清涼）",q:"ハイパーケールの臨床試験で確認された効果はどれですか？",opts:["体重が減少した", "服用前と比べて皮膚の水分量が増加した", "血糖値が下がった", "睡眠の質が改善した"],ans:1,exp:"臨床試験（12週間）では、ハイパーケール（グルコラファニン20mg含有）を摂取したグループで皮膚の水分量が服用前より有意に増加することが確認されました（Ohno et al. 2018）。"},
+{id:57,cat:"商品知識（ジュース・清涼）",q:"ハイパーケールはどんな方に特におすすめですか？",opts:["筋肉をつけたい方", "肌の乾燥が気になる方・食事でのケール摂取が難しい方", "骨粗しょう症が心配な方", "視力が低下してきた方"],ans:1,exp:"ハイパーケールは肌の乾燥が気になる方、マスク・エアコンで乾燥する環境にいる方、食事でケールを摂るのが難しい方などにおすすめです。"},
+{id:58,cat:"商品知識（ジュース・清涼）",q:"ハイパーケールの飲み方として正しいものはどれですか？",opts:["1日1包をそのまま口に含む", "1日2包を200mL程度の水に溶かして飲む", "1日3包を食後に服用する", "1日1包を牛乳200mLに溶かす"],ans:1,exp:"ハイパーケールは1日2包を目安に、200mL程度の水に溶かしてお飲みください。"},
+{id:59,cat:"商品知識（ジュース・清涼）",q:"ハイパーケールに使われる新品種ケール「ハイパール」は、どの大学との共同研究で開発されましたか？",opts:["東京大学農学部", "京都大学農学部", "信州大学農学部", "大阪大学医学部"],ans:2,exp:"ハイパールはヤクルトヘルスフーズと信州大学農学部の共同研究で開発されました。信州大学から機能性食材として推薦され、グルコラファニンを多く含む品種として商品化されました。"},
+{id:60,cat:"商品知識（ジュース・清涼）",q:"信州大学との共同研究でヤクルトヘルスフーズが依頼した研究内容として正しいものはどれですか？",opts:["ケールの栽培方法の最適化", "ハイパールの老化症状抑制効果の動物実験と生理活性物質の解明", "ケールの加工・製造技術の開発", "グルコラファニンの化学合成方法の研究"],ans:1,exp:"ヤクルトヘルスフーズは信州大学に対し、「ハイパール」摂取による老化症状抑制効果の動物実験、およびケール中の生理活性物質の構造決定・生体機能への有効性解明を依頼しました。"},
+{id:61,cat:"商品知識（ジュース・清涼）",q:"ハイパールが一般のケールと異なる大きな特長はどれですか？",opts:["色が濃い緑色である", "グルコラファニンを多く含み、青臭みが少ない", "甘みが強い", "葉が大きい"],ans:1,exp:"ハイパールはグルコラファニンを多く含むことに加え、ケール独特の青臭みが少ないことも大きな特長です。また農薬・化学肥料を使用せずに栽培されています。"},
+{id:62,cat:"商品知識（乳製品）",q:"ジョアが誕生したのはいつですか？",opts:["1960年", "1970年", "1980年", "1990年"],ans:1,exp:"ジョアは1970年に誕生した「のむヨーグルト」です。"},
+{id:63,cat:"商品知識（乳製品）",q:"ジョア全フレーバーに共通して含まれているものはどれですか？",opts:["ビタミンC", "鉄・葉酸", "乳酸菌 シロタ株", "カルシウム"],ans:2,exp:"ジョア全フレーバーに共通して含まれているのは乳酸菌 シロタ株です。フレーバーによって配合される栄養素が異なります。"},
+{id:64,cat:"商品知識（乳製品）",q:"ジョア全フレーバーの容量と価格（税別）として正しいものはどれですか？",opts:["100ml・100円", "125ml・110円", "150ml・130円", "200ml・150円"],ans:1,exp:"ジョアは各125ml・110円（税別）です。メーカー希望小売価格です。"},
+{id:65,cat:"商品知識（乳製品）",q:"ジョア プレーンとストロベリーに含まれる1日分の栄養素の組み合わせはどれですか？",opts:["鉄・葉酸", "ビタミンB6・D・E", "カルシウム・ビタミンD", "カルシウム・ビタミンC"],ans:2,exp:"ジョア プレーンとストロベリーには1日分のカルシウム（680mg）とビタミンD（5.5μg）が配合されています。"},
+{id:66,cat:"商品知識（乳製品）",q:"ジョア ブルーベリーに含まれる1日分の栄養素の組み合わせはどれですか？",opts:["カルシウム・ビタミンD", "ビタミンB6・D・E", "鉄・葉酸", "ビタミンA・C・E"],ans:1,exp:"ジョア ブルーベリーには1日分のビタミンB6（1.3mg）・ビタミンD（5.5μg）・ビタミンE（6.3mg）が配合されています。"},
+{id:67,cat:"商品知識（乳製品）",q:"ジョア マスカットに含まれる1日分の栄養素の組み合わせはどれですか？",opts:["カルシウム・ビタミンD", "ビタミンB6・D・E", "鉄・葉酸", "ビタミンA・葉酸"],ans:2,exp:"ジョア マスカットには1日分の鉄（6.8mg）と葉酸（240μg）が配合されています。月経のある女性や妊娠中・授乳中の女性におすすめです。"},
+{id:68,cat:"商品知識（乳製品）",q:"ジョアの1日分のカルシウム（680mg）は牛乳コップ（200ml）何杯分に相当しますか？",opts:["約1杯", "約2杯", "約3杯と少し", "約5杯"],ans:2,exp:"ジョア1本分のカルシウム680mgは、牛乳コップ（200ml）約3杯と少し分に相当します。"},
+{id:69,cat:"商品知識（乳製品）",q:"ジョアの1日分のビタミンD（5.5μg）は、まいたけ（ゆで）何g分に相当しますか？",opts:["約30g", "約60g", "約93g", "約150g"],ans:2,exp:"ジョア1本分のビタミンD5.5μgは、まいたけ（ゆで）約93.2g分に相当します。ビタミンDはカルシウムの体内吸収を助けるはたらきがあります。"},
+{id:70,cat:"商品知識（乳製品）",q:"ジョアの1日分の鉄（6.8mg）は、豚レバー何g分に相当しますか？",opts:["約20g", "約35g", "約52g", "約80g"],ans:2,exp:"ジョア1本分の鉄6.8mgは、豚レバー約52.3g分に相当します。"},
+{id:71,cat:"商品知識（乳製品）",q:"ジョアのフレーバーは現在何種類ですか？",opts:["2種類", "3種類", "4種類", "5種類"],ans:2,exp:"ジョアは現在プレーン・ストロベリー・ブルーベリー・マスカットの4種類のフレーバーがあります。"},
+{id:72,cat:"商品知識（化粧品）",q:"リベシィホワイトのブランドコンセプト「透白肌」とはどういう意味ですか？",opts:["シワをなくして若返った肌", "美白とうるおいにより明るく透明感あふれる肌", "毛穴をなくして陶器のような肌", "日焼けしにくい強い肌"],ans:1,exp:"リベシィホワイトの「透白」とは、美白とうるおいにより、明るく透明感あふれるお肌のことです。美白とは、メラニンの生成をおさえ、シミ・ソバカスを防ぐことを指します。"},
+{id:73,cat:"商品知識（化粧品）",q:"リベシィホワイトはどんなお悩みを持つ方向けのスキンケアですか？",opts:["シワ・たるみが気になる方", "シミ・そばかす・くすみ・かさつきが気になる方", "毛穴の開き・テカリが気になる方", "ニキビ・吹き出物が気になる方"],ans:1,exp:"リベシィホワイトは「シミ・そばかす」「くすみ（乾燥による）」「かさつき」が気になる方向けのスキンケアシリーズです。"},
+{id:74,cat:"商品知識（化粧品）",q:"リベシィホワイトに配合されている美白成分はどれですか？",opts:["レチノール", "ビタミンC誘導体", "トランサミン", "アルブチン"],ans:1,exp:"リベシィホワイトには美白成分としてビタミンC誘導体が配合されています。乳酸菌生まれの保湿成分と組み合わせた美白スキンケアシリーズです。"},
+{id:75,cat:"商品知識（化粧品）",q:"リベシィホワイトに配合されている乳酸菌生まれの保湿成分の名称はどれですか？",opts:["乳酸菌 シロタ株エキス", "乳酸菌発酵エキス（ミルク）＝ホエイ-2", "乳酸菌培養液", "ビフィズス菌エキス"],ans:1,exp:"リベシィホワイトには乳酸菌発酵エキス（ミルク）＝成分名「ホエイ-2」が保湿成分として配合されています。パラビオACシリーズと同じS.E.（シロタエッセンス）です。"},
+{id:76,cat:"商品知識（化粧品）",q:"ヤクルト独自の美白ケアメソッドの名称はどれですか？",opts:["ホワイトメソッド", "透白メソッド", "ブライトメソッド", "クリアメソッド"],ans:1,exp:"リベシィホワイトはヤクルト独自の「透白メソッド」により、美白（シミ・ソバカスを防ぐ）とブライトニング（乾燥によるくすみを防ぐ）を組み合わせたケアを実現しています。"},
+{id:77,cat:"商品知識（化粧品）",q:"リベシィホワイトのクレンジングオイルの使用量とふき取り方として正しいものはどれですか？",opts:["500円硬貨大・コットンでふき取る", "さくらんぼ粒大・ティッシュでふきとり残った油分はふき取り化粧水で", "真珠粒大・指でなじませてそのまま洗い流す", "クリーム大・蒸しタオルで拭き取る"],ans:1,exp:"リベシィホワイトのクレンジングオイルは、さくらんぼ粒大をお顔全体にのばしマッサージした後、ティッシュで軽くふきとり、残った油分をふきとり用化粧水でふきとります。"},
+{id:78,cat:"商品知識（化粧品）",q:"リベシィホワイトの薬用美白パックの種類はどれですか？",opts:["貼るタイプ（シートマスク）", "洗い流すタイプとはがすタイプの2種類", "塗るだけタイプ", "ジェルタイプ"],ans:1,exp:"リベシィホワイトのパックには、洗い流すタイプ（10分後に洗い流す）とはがすタイプ（乾いたら下から上へはがす）の2種類があります。どちらも薬用美白パックです。"},
+{id:79,cat:"商品知識（化粧品）",q:"リベシィホワイトが属する薬事区分はどれですか？",opts:["一般化粧品", "医薬部外品", "第3類医薬品", "特定保健用食品"],ans:1,exp:"リベシィホワイトは医薬部外品です。美白有効成分ビタミンC誘導体を配合した薬用スキンケアシリーズです。"},
+{id:80,cat:"商品知識（化粧品）",q:"リベシィホワイトのローション（化粧水）の使用量と使い方として正しいものはどれですか？",opts:["手のひら1杯・直接塗布", "コットンに500円硬貨大・洗顔後になじませる", "真珠粒大・気になる部分に集中して使用", "3〜4プッシュ・手でなじませる"],ans:1,exp:"リベシィホワイトのローションは、コットンに500円硬貨大をふくませ、洗顔やマッサージの後お顔全体にまんべんなくなじませます。パラビオと同じ使い方です。"},
+{id:81,cat:"商品知識（化粧品）",q:"「ブライトニング」の意味として正しいものはどれですか？",opts:["メラニンの生成をおさえシミ・ソバカスを防ぐこと", "乾燥によるくすみを防ぎ明るい印象のお肌へ導くこと", "シワを改善しハリを出すこと", "毛穴を引き締め凹凸のない肌にすること"],ans:1,exp:"ブライトニングとは、乾燥によるくすみを防ぎ、明るい印象のお肌へ導くことです。美白（ホワイトニング）がシミ・ソバカスを防ぐのに対し、ブライトニングはくすみケアです。"},
+{id:82,cat:"商品知識（関連商品）",q:"麺許皆伝を製造しているのはどの会社ですか？",opts:["ヤクルト本社", "ヤクルトヘルスフーズ", "ヤクルト食品工業株式会社", "ヤクルトビューティエンス"],ans:2,exp:"麺許皆伝はヤクルトグループの「ヤクルト食品工業株式会社」が製造しています。佐賀県神埼市にあるヤクルトグループ唯一のめん製造工場です。"},
+{id:83,cat:"商品知識（関連商品）",q:"麺許皆伝のめんに練り込まれている特徴的な成分はどれですか？",opts:["クロレラ", "国産大麦若葉エキス末", "乳酸菌 シロタ株", "グルコラファニン"],ans:1,exp:"麺許皆伝のめんには国産大麦若葉エキス末が練り込まれており、ヤクルト独自の緑色のめんが特徴です。カリウムや鉄などを豊富に含んでいます。"},
+{id:84,cat:"商品知識（関連商品）",q:"麺許皆伝のめんにもちもち感を加えるために配合されている成分はどれですか？",opts:["小麦グルテン", "こんにゃく粉（マンナン粉）", "片栗粉", "タピオカ粉"],ans:1,exp:"麺許皆伝には食物繊維を豊富に含むこんにゃく粉（マンナン粉）が配合されており、もちもち感と健康価値を高めています。"},
+{id:85,cat:"商品知識（関連商品）",q:"麺許皆伝のフレーバーと対応するご当地スタイルの組み合わせで正しいものはどれですか？",opts:["しょうゆ味：博多風", "みそ味：札幌風", "しお味：喜多方風", "とんこつ味：函館風"],ans:1,exp:"麺許皆伝はしょうゆ味：喜多方風、みそ味：札幌風、しお味：函館風、とんこつ味：博多風、ソース焼そば：屋台風の5種類です。"},
+{id:86,cat:"商品知識（関連商品）",q:"麺許皆伝のめんのカルシウム含有量は一般の即席中華めん（油揚げ）と比べてどれくらい多いですか？",opts:["10%増量", "30%増量", "50%増量", "2倍"],ans:2,exp:"麺許皆伝は日本食品標準成分表2020（八訂）の即席中華めん（油揚げ）と比べ、1食あたりのカルシウム（めんに340mg）を50%増量しています。ビタミンB1・B2（スープ・ソース）は30%増量です。"},
+{id:87,cat:"商品知識（関連商品）",q:"麺許皆伝の特徴的なめんの色はどれですか？",opts:["白色", "黄色", "緑色", "茶色"],ans:2,exp:"麺許皆伝のめんは国産大麦若葉エキス末が練り込まれているため、ヤクルト独自の緑色をしています。"},
+{id:88,cat:"接客・販売知識",q:"CSとは何の略ですか？",opts:["Customer Service", "Customer Satisfaction", "Customer Support", "Customer Success"],ans:1,exp:"CSはCustomer Satisfaction（顧客満足）の略です。お客さまを大切にし、お客さまの心遣いを最優先に考えて期待以上の行動を表すことです。"},
+{id:89,cat:"接客・販売知識",q:"「対応の方程式」でお客さまが満足・深い信頼を感じるのはどんな時ですか？",opts:["期待通りのサービスを受けた時", "期待を下回るサービスを受けた時", "思っていた以上に良かった時", "特に何もなかった時"],ans:2,exp:"対応の方程式では「思っていた以上に良かった（事前期待を超えた）」時にお客さまは満足・深い信頼を感じます。期待通りだと現状維持・信頼、期待を裏切ると不満になります。"},
+{id:90,cat:"接客・販売知識",q:"チャルディーニの法則で「セールスにおいてお客さまは嫌な人からは○○○」に入る言葉はどれですか？",opts:["話を聞かない", "買わない", "関わらない", "逃げる"],ans:1,exp:"チャルディーニの法則によると「人は好意をもっている人からの要請には積極的に応えようとする」ため、セールスではお客さまに好かれなければ、お客さまは嫌な人からは買わないとされています。"},
+{id:91,cat:"接客・販売知識",q:"「初頭効果」とはどういう意味ですか？",opts:["初めて会った人には丁寧にする心理", "人は相手を第一印象で認識する傾向がある心理効果", "最初に聞いた情報を信じやすい効果", "初めての体験が記憶に残りやすい効果"],ans:1,exp:"初頭効果とは「人は相手を第一印象で認識する傾向がある」という心理効果のことです。第一印象が良いとプラスのイメージ、悪いとマイナスのイメージがつきやすくなります。"},
+{id:92,cat:"接客・販売知識",q:"第一印象を構成する要素の割合（メラビアンの法則）で最も大きいのはどれですか？",opts:["言葉の内容（7%）", "聴覚による印象（38%）", "視覚による印象（55%）", "すべて同じ"],ans:2,exp:"メラビアンの法則では第一印象の内訳は、言葉の内容7%・聴覚（声のトーン・大きさ）38%・視覚（服装・表情・姿勢など）55%です。見た目・態度が最も大きな割合を占めます。"},
+{id:93,cat:"接客・販売知識",q:"「聴く」を漢字で表すと「耳＋目＋心」で構成されますが、この意味として正しいものはどれですか？",opts:["目を見て大きな声で話す", "耳だけでなく目と心も使って真剣に相手の話をきく", "相手の言葉を質問で確認する", "自分中心で話を進める"],ans:1,exp:"「聴く」という漢字は「耳＋目＋心」で構成され、耳だけでなく目と心も使って真剣に相手の話をきくことを意味します。「聞く（聞き流す）」「訊く（質問する）」と区別されます。"},
+{id:94,cat:"接客・販売知識",q:"「きく」の3つの種類と意味の組み合わせで正しいものはどれですか？",opts:["聞く＝真剣にきく、訊く＝聞き流す、聴く＝質問する", "聞く＝聞き流す、訊く＝質問する、聴く＝真剣にきく", "聞く＝質問する、訊く＝真剣にきく、聴く＝聞き流す", "すべて同じ意味"],ans:1,exp:"「きく」の3種類は、聞く＝聞き流す（自分中心）、訊く＝質問をする、聴く＝真剣にきく（相手中心）です。お客さまとの会話では「聴く」が最も大切です。"},
+{id:95,cat:"接客・販売知識",q:"聴く効果を高める「聴くテクニック」として特に意識してほしいものはどれですか？",opts:["専門用語を使う・早口で話す", "相づち・うなずき・オウム返し・要約する・感情を返す", "メモをとる・目を閉じる", "笑顔を絶やさない・敬語を使う"],ans:1,exp:"聴く効果を高めるテクニックとして「相づち・うなずき・オウム返し・要約する・感情を返す」の5つが挙げられています。特に意識してほしいテクニックとして研修で強調されています。"},
+{id:96,cat:"接客・販売知識",q:"世間話の話題を覚える語呂合わせ「キドニタチカケシ衣食住」の「キ」は何を表しますか？",opts:["気候", "季節", "記念日", "帰省"],ans:1,exp:"「キドニタチカケシ衣食住」は世間話の話題の語呂合わせで、キ＝季節、ド＝道楽（趣味）、ニ＝ニュース、タ＝旅、チ＝知人、カ＝家族、ケ＝健康、シ＝仕事、衣＝服装、食＝食事、住＝すまいです。"},
+{id:97,cat:"接客・販売知識",q:"効果的な質問の種類で「はい・いいえや一語二語で答えられる質問」を何といいますか？",opts:["開かれた質問", "関連質問", "閉ざされた質問", "確認質問"],ans:2,exp:"「はい・いいえ」や一語二語で簡単に答えられる質問を「閉ざされた質問」といいます。考えや感情を自由に語ってもらう質問は「開かれた質問」、お客さまの話題に関連した質問は「関連質問」です。"},
+{id:98,cat:"接客・販売知識",q:"お客さまに周波数を合わせる3要素として正しいものはどれですか？",opts:["笑顔・姿勢・言葉遣い", "ボディ・ランゲージ・ムード・ワード", "共感・傾聴・質問", "敬語・笑顔・身だしなみ"],ans:1,exp:"お客さまに周波数を合わせる3要素は、ボディ・ランゲージ（身振り手振り）・ムード（雰囲気）・ワード（言葉）です。"},
+{id:99,cat:"接客・販売知識",q:"「HAPPY HAPPYの関係」とはどういう意味ですか？",opts:["会社と社員がともに幸せになること", "お客さまも満足・私も満足のwin-winの関係", "お客さまの笑顔だけを追求すること", "健康と幸せを同時に届けること"],ans:1,exp:"「HAPPY HAPPYの関係」とはお客さまも満足・私も満足というwin-winの関係です。お客さまが健康に・笑顔になり、その喜ぶ姿を見てヤクルトレディも幸せを感じる関係を目指します。"}
+];
+var ICONS={"商品知識（乳製品）":"ti-bottle","商品知識（ジュース・清涼）":"ti-glass-full","商品知識（化粧品）":"ti-sparkles","商品知識（関連商品）":"ti-package","接客・販売知識":"ti-users","その他":"ti-dots-circle-horizontal"};
+var CAT_ICONS_AVAIL=["ti-history","ti-dna","ti-microscope","ti-bottle","ti-users","ti-star","ti-heart","ti-bulb","ti-book","ti-trophy","ti-leaf","ti-droplet","ti-apple","ti-pill","ti-stethoscope"];
+var CAT_SETTINGS={};
+var _catList=[];
+try{var _cs=localStorage.getItem("yq_cat");if(_cs)CAT_SETTINGS=JSON.parse(_cs);}catch(e){}
+function getCatIcon(cat){return(CAT_SETTINGS[cat]&&CAT_SETTINGS[cat].icon)||ICONS[cat]||"ti-star";}
+// Lv.1〜100 を自動生成（XPは指数的に増加）
+var LVLS=(function(){
+  var names=[
+    "腸活はじめました",
+    "乳酸菌 シロタ株に興味あり",
+    "乳酸菌ファン",
+    "健腸ライフ入門",
+    "乳酸菌 シロタ株見習い",
+    "毎日飲んでます",
+    "腸内フローラ観察中",
+    "乳酸菌と仲良し",
+    "健腸習慣づいてきた",
+    "乳酸菌フレンド",
+    "免疫力アップ中",
+    "腸内環境改善中",
+    "乳酸菌 シロタ株の友",
+    "健腸生活実践中",
+    "腸内環境整え中",
+    "ヤクルト愛飲家",
+    "乳酸菌マニア",
+    "腸活セミプロ",
+    "乳酸菌 シロタ株推し",
+    "ヤクルトレディ予備軍",
+    "腸内細菌研究生",
+    "乳酸菌の使者",
+    "健腸長寿を目指す者",
+    "乳酸菌 シロタ株の申し子（卵）",
+    "免疫機能チェック済",
+    "ビフィズス菌も理解した",
+    "脳腸相関を知る者",
+    "代田イズム入門者",
+    "腸内フローラ設計中",
+    "健腸ライフ実践者",
+    "乳酸菌 シロタ株語り部",
+    "ヤクルト宅配の伝道師",
+    "腸活コーチ見習い",
+    "乳酸菌 シロタ株愛好家",
+    "免疫バランス守護者",
+    "腸内細菌アドバイザー",
+    "予防医学の実践者",
+    "健腸長寿研究家",
+    "乳酸菌 シロタ株信者",
+    "乳酸菌 シロタ株の申し子",
+    "ヤクルトレディ（名誉）",
+    "腸活エキスパート",
+    "代田イズム継承候補",
+    "乳酸菌博士（見習）",
+    "健腸生活マイスター",
+    "乳酸菌 シロタ株の守護者",
+    "腸内フローラ設計師",
+    "免疫機能の番人",
+    "ヤクルト商品知識人",
+    "腸活マイスター",
+    "乳酸菌 シロタ株の伝道師",
+    "予防医学の使者",
+    "乳酸菌研究の第一歩",
+    "腸内環境デザイナー",
+    "健腸長寿の実践者",
+    "代田イズム伝道師",
+    "ヤクルト文化継承者",
+    "乳酸菌 シロタ株マスター",
+    "腸活スペシャリスト",
+    "代田イズム継承者",
+    "乳酸菌 シロタ株の賢者",
+    "腸内フローラの詩人",
+    "免疫バランスの師",
+    "ヤクルト博士候補",
+    "健腸長寿の哲学者",
+    "乳酸菌 シロタ株の哲人",
+    "代田イズムの語り部",
+    "腸活の求道者",
+    "乳酸菌文化の守護者",
+    "ヤクルト博士",
+    "腸内細菌学の権威",
+    "乳酸菌 シロタ株の賢者",
+    "予防医学の権威",
+    "健腸長寿の導師",
+    "乳酸菌 シロタ株の神使",
+    "代田イズムの体現者",
+    "腸活の開拓者",
+    "ヤクルトの生き字引",
+    "乳酸菌 シロタ株の化身",
+    "乳酸菌の伝道師",
+    "腸内フローラの王",
+    "代田イズムの守護神",
+    "健腸長寿の体現者",
+    "乳酸菌 シロタ株に選ばれし者",
+    "腸活の求道者（上）",
+    "乳酸菌 シロタ株の聖人",
+    "ヤクルト文化の象徴",
+    "代田稔の教えを継ぐ者",
+    "腸内細菌学の泰斗",
+    "健腸長寿の守護者",
+    "乳酸菌 シロタ株の使徒",
+    "乳酸菌の伝説",
+    "腸活の覇者",
+    "ヤクルトの生ける伝説",
+    "代田イズムの化身",
+    "健腸長寿の聖人",
+    "乳酸菌 シロタ株の神",
+    "乳酸菌文化の神話",
+    "代田稔の後継者",
+    "代田稔の意志を継ぐ者"
+  ];
+  var lvls=[];
+  var xp=0;
+  for(var i=0;i<100;i++){
+    var need=i<99?(50+i*15):99999999;
+    var next=i<99?xp+need:99999999;
+    lvls.push([xp,next,"Lv."+(i+1)+" "+names[i]]);
+    xp=next;
+  }
+  return lvls;
+})();
+var qs=JSON.parse(JSON.stringify(QS));
+var us={xp:0,total:0,correct:0,catStats:{}};
+var bms=[];
+var nid=100;
+var qst={};
+var adm=false;
+try{var ss=localStorage.getItem('yq_s');if(ss)us=JSON.parse(ss);}catch(e){}
+try{var bs=localStorage.getItem('yq_bm');if(bs)bms=JSON.parse(bs);}catch(e){}
+// 問題データの読み込み：常にQSをベースに、管理者編集分（同じID）は上書き保持
+try{
+  var catMap={
+    '代田イズム・歴史':'その他','腸の知識':'その他',
+    '乳酸菌・菌の知識':'その他','商品知識':'商品知識（乳製品）',
+    '関連商品':'商品知識（関連商品）','新しいカテゴリ':'その他',
+    'bookmark':'その他'
+  };
+  // QSをベースにリセット（カテゴリ・順序は常にQS準拠）
+  qs=JSON.parse(JSON.stringify(QS));
+  // 管理者が編集した内容（問題文・選択肢）だけ上書き
+  var sq=localStorage.getItem('yq_admin_qs');
+  if(sq){
+    var pq=JSON.parse(sq);
+    var pqMap={};
+    pq.forEach(function(q){
+      if(catMap[q.cat])q.cat=catMap[q.cat];
+      pqMap[q.id]=q;
+    });
+    qs=qs.map(function(q){
+      // 同じIDで管理者が編集した問題があれば上書き（ただしcatはQS優先）
+      if(pqMap[q.id]){
+        var edited=pqMap[q.id];
+        return {id:q.id,cat:q.cat,q:edited.q,opts:edited.opts,ans:edited.ans,exp:edited.exp};
+      }
+      return q;
+    });
+    // QSにないIDの問題（管理者が手動追加）も残す
+    pq.forEach(function(q){
+      if(!qs.find(function(x){return x.id===q.id;}))qs.push(q);
+    });
+  }
+  localStorage.setItem('yq_admin_qs',JSON.stringify(qs));
+}catch(e){}
+nid=Math.max(100,Math.max.apply(null,qs.map(function(q){return q.id+1;})));
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function svS(){try{localStorage.setItem('yq_s',JSON.stringify(us));}catch(e){}}
+function svQ(){try{localStorage.setItem('yq_admin_qs',JSON.stringify(qs));}catch(e){}}
+function svB(){try{localStorage.setItem('yq_bm',JSON.stringify(bms));}catch(e){}}
+function goTab(i){
+  [0,1,2,3].forEach(function(j){
+    var s=document.getElementById('s'+j);if(s)s.classList.toggle('on',j===i);
+  });
+  var tabMap={0:'n0',1:'n1',3:'n3'};
+  Object.keys(tabMap).forEach(function(j){
+    var n=document.getElementById(tabMap[j]);if(n)n.classList.toggle('on',parseInt(j)===i);
+  });
+  if(i===2)renderAdmin();
+  if(i===3)renderSettings();
+}
+function goSettings(){
+  // 管理者モードなら管理者画面から設定画面へ
+  if(adm){
+    var b=document.getElementById('atg');
+    var nav=document.querySelector('.nav');
+    adm=false;
+    b.className='atg';
+    b.innerHTML='<i class="ti ti-lock" style="font-size:14px"></i>';
+    document.body.classList.remove('admin-mode');
+    if(nav)nav.style.display='';
+  }
+  goTab(3);
+}
+function toggleAdmin(){
+  var b=document.getElementById('atg');
+  var nav=document.querySelector('.nav');
+  if(adm){
+    adm=false;
+    b.className='atg';
+    b.innerHTML='<i class="ti ti-lock" style="font-size:14px"></i>';
+    document.body.classList.remove('admin-mode');
+    if(nav)nav.style.display='';
+    goTab(0);
+  }else{
+    b.className='atg on';
+    b.innerHTML='<i class="ti ti-lock-open" style="font-size:14px"></i>';
+    document.body.classList.add('admin-mode');
+    if(nav)nav.style.display='none';
+    goTab(2);
+  }
+}
+function chkPw(){
+  adm=true;
+  document.getElementById('alv').style.display='none';
+  document.getElementById('amv').style.display='block';
+  renderAList();
+}
+function renderAdmin(){
+  if(!adm){document.getElementById('alv').style.display='block';document.getElementById('amv').style.display='none';}
+  else{document.getElementById('alv').style.display='none';document.getElementById('amv').style.display='block';renderAList();}
+}
+function goATab(i){
+  var divs={'aev':0,'acv':1,'atv':2,'alvv':3};
+  Object.keys(divs).forEach(function(id){
+    var el=document.getElementById(id);if(el)el.style.display=divs[id]===i?'block':'none';
+  });
+  [0,1,2,3].forEach(function(j){
+    var b=document.getElementById('at'+j);if(b)b.classList.toggle('on',j===i);
+  });
+  if(i===1)renderCatMgr();
+  if(i===2)renderTxtFields();
+  if(i===3)renderLvlEdit();
+}
+// ===== 設定変数 =====
+var CFG={theme:'',dark:false,fs:'m',qcount:0,timer:0,snd:true};
+var LVLS_EDIT=JSON.parse(JSON.stringify(LVLS));
+try{var cs=localStorage.getItem('yq_cfg');if(cs){var cc2=JSON.parse(cs);Object.assign(CFG,cc2);}}catch(e){}
+try{var le=localStorage.getItem('yq_lvls');if(le){
+  var _saved=JSON.parse(le);
+  _saved.forEach(function(lv,i){if(LVLS_EDIT[i])LVLS_EDIT[i][2]=lv[2];});
+  LVLS=JSON.parse(JSON.stringify(LVLS_EDIT));
+}}catch(e){}
+
+function applyTheme(){
+  document.body.className=document.body.className.replace(/theme-\S+/g,'').replace(/\bdark\b/g,'').trim();
+  document.documentElement.className=(document.documentElement.className||'').replace(/fs-[sml]/g,'').trim();
+  if(CFG.theme)document.body.classList.add(CFG.theme);
+  if(CFG.dark)document.body.classList.add('dark');
+  if(CFG.fs!=='m')document.documentElement.classList.add('fs-'+CFG.fs);
+}
+function saveCFG(){try{localStorage.setItem('yq_cfg',JSON.stringify(CFG));}catch(e){}}
+
+function setTheme(t){
+  CFG.theme=t;saveCFG();applyTheme();
+  document.querySelectorAll('.th-btn').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-theme')===t);});
+}
+function setThemeCustom(){
+  var c=prompt('カスタムカラー（例：#FF6600）を入力してください','#CC0000');
+  if(!c)return;
+  // CSSカスタムプロパティを直接上書き
+  document.documentElement.style.setProperty('--red',c);
+  var r=parseInt(c.slice(1,3),16),g=parseInt(c.slice(3,5),16),b2=parseInt(c.slice(5,7),16);
+  var darker='#'+[Math.max(0,r-40),Math.max(0,g-40),Math.max(0,b2-40)].map(function(v){return('0'+v.toString(16)).slice(-2);}).join('');
+  document.documentElement.style.setProperty('--rd',darker);
+  CFG.theme='custom';CFG.customColor=c;saveCFG();
+}
+function toggleDark(){
+  CFG.dark=!CFG.dark;saveCFG();applyTheme();
+  var tgl=document.getElementById('dark-tgl');
+  if(tgl)tgl.classList.toggle('on',CFG.dark);
+}
+function setFs(s){
+  CFG.fs=s;saveCFG();
+  var html=document.documentElement;
+  html.className=(html.className||'').replace(/fs-[sml]/g,'').trim();
+  if(s!=='m')html.classList.add('fs-'+s);
+  document.querySelectorAll('.fsb').forEach(function(b){b.classList.toggle('on',b.id==='fs-'+s);});
+}
+function saveQCount(){
+  var sel=document.getElementById('q-count-sel');if(sel)CFG.qcount=parseInt(sel.value);saveCFG();
+}
+function saveTimer(){
+  var sel=document.getElementById('timer-sel');if(sel)CFG.timer=parseInt(sel.value);saveCFG();
+}
+function setTimerHome(v){
+  CFG.timer=v;saveCFG();
+  document.querySelectorAll('.tmr-opt').forEach(function(b){
+    b.classList.toggle('on',parseInt(b.dataset.v)===v);
+  });
+  var ci=document.getElementById('tmr-custom');
+  if(ci){ci.value='';ci.style.borderColor='';}
+}
+function setTimerCustom(){
+  var ci=document.getElementById('tmr-custom');
+  if(!ci)return;
+  var v=parseInt(ci.value);
+  if(isNaN(v)||v<1)return;
+  CFG.timer=v;saveCFG();
+  document.querySelectorAll('.tmr-opt').forEach(function(b){b.classList.remove('on');});
+  ci.style.borderColor='var(--red)';
+}
+function toggleSnd(){
+  CFG.snd=!CFG.snd;saveCFG();
+  var tgl=document.getElementById('snd-tgl');
+  if(tgl)tgl.classList.toggle('on',CFG.snd);
+}
+function renderLvlEdit(){
+  var le=document.getElementById('lvl-edit');if(!le)return;
+  le.innerHTML='<div style="display:grid;grid-template-columns:36px 1fr 70px;gap:4px;margin-bottom:6px;font-size:10px;color:var(--g6);padding:0 2px"><span>Lv</span><span>称号名</span><span>次Lvまで</span></div>';
+  LVLS_EDIT.forEach(function(lv,i){
+    var isLast=(i===LVLS_EDIT.length-1);
+    le.innerHTML+='<div class="lvl-row" style="gap:4px">'+
+      '<span class="lvl-num">Lv.'+(i+1)+'</span>'+
+      '<input class="lvl-inp" id="lvl-name-'+i+'" value="'+esc(lv[2].replace(/^Lv\.\d+\s*/,''))+'" placeholder="称号名" style="flex:1">'+
+      (isLast?'<span style="font-size:11px;color:var(--g4);text-align:center;line-height:2.2">∞</span>':
+        '<input class="lvl-inp" id="lvl-xp-'+i+'" value="'+(lv[1]-lv[0])+'" type="number" min="1" style="width:66px;text-align:right" placeholder="XP">')+
+      '</div>';
+  });
+}
+function resetLvlsAdmin(){
+  if(!confirm('称号・XP設定を初期値に戻しますか？'))return;
+  LVLS_EDIT=JSON.parse(JSON.stringify(LVLS));
+  try{localStorage.removeItem('yq_lvls');}catch(e){}
+  renderLvlEdit();renderHome();alert('リセットしました！');
+}
+function saveLvls(){
+  LVLS_EDIT.forEach(function(lv,i){
+    var nameInp=document.getElementById('lvl-name-'+i);
+    if(nameInp&&nameInp.value.trim())lv[2]=nameInp.value.trim();
+    var xpInp=document.getElementById('lvl-xp-'+i);
+    if(xpInp&&!isNaN(parseInt(xpInp.value))&&i<LVLS_EDIT.length-1){
+      var newXp=Math.max(1,parseInt(xpInp.value));
+      lv[1]=newXp;
+      // 次のLvの下限も連動して更新
+      if(LVLS_EDIT[i+1])LVLS_EDIT[i+1][0]=newXp;
+    }
+  });
+  LVLS=JSON.parse(JSON.stringify(LVLS_EDIT));
+  try{localStorage.setItem('yq_lvls',JSON.stringify(LVLS_EDIT));}catch(e){}
+  renderHome();alert('称号・XP設定を保存しました！');
+}
+function renderSettings(){
+  // テーマボタン
+  document.querySelectorAll('.th-btn[data-theme]').forEach(function(b){
+    b.classList.toggle('on',b.getAttribute('data-theme')===CFG.theme);
+  });
+  // ダークトグル
+  var dt=document.getElementById('dark-tgl');if(dt)dt.classList.toggle('on',CFG.dark);
+  // 文字サイズ
+  ['s','m','l'].forEach(function(f){var b=document.getElementById('fs-'+f);if(b)b.classList.toggle('on',CFG.fs===f);});
+  // 出題数
+  var qs2=document.getElementById('q-count-sel');if(qs2)qs2.value=CFG.qcount;
+  // タイマー
+  var ts=document.getElementById('timer-sel');if(ts)ts.value=CFG.timer;
+  // 効果音
+  var st=document.getElementById('snd-tgl');if(st)st.classList.toggle('on',CFG.snd);
+  // 称号編集
+
+}
+function resetScore(){
+  if(!confirm('学習記録（回答数・正答率・XP）をすべてリセットしますか？'))return;
+  us={xp:0,total:0,correct:0,catStats:{}};svS();renderHome();alert('リセットしました！');
+}
+function resetBm(){
+  if(!confirm('ブックマークをすべて削除しますか？'))return;
+  bms=[];svB();renderHome();alert('ブックマークを削除しました！');
+}
+
+// タイマー管理
+var tmrInterval=null;
+function startTimer(sec,onEnd){
+  clearInterval(tmrInterval);
+  var el=document.getElementById('tmr-fill');var tl=document.getElementById('tmr-left');
+  if(!el)return;
+  var rem=sec;
+  function tick(){
+    rem--;
+    if(el)el.style.width=(rem/sec*100)+'%';
+    if(el)el.style.background=rem<=5?'#CC0000':rem<=10?'#E8A000':'var(--red)';
+    if(tl)tl.textContent=rem+'秒';
+    if(rem<=0){clearInterval(tmrInterval);if(onEnd)onEnd();}
+  }
+  if(el)el.style.width='100%';if(tl)tl.textContent=sec+'秒';
+  tmrInterval=setInterval(tick,1000);
+}
+function stopTimer(){clearInterval(tmrInterval);}
+
+// 効果音（Web Audio API）
+function playSound(type){
+  if(!CFG.snd)return;
+  try{
+    var ctx=new(window.AudioContext||window.webkitAudioContext)();
+    var osc=ctx.createOscillator();var gain=ctx.createGain();
+    osc.connect(gain);gain.connect(ctx.destination);
+    if(type==='ok'){osc.frequency.setValueAtTime(523,ctx.currentTime);osc.frequency.setValueAtTime(659,ctx.currentTime+0.1);osc.frequency.setValueAtTime(784,ctx.currentTime+0.2);}
+    else if(type==='ng'){osc.frequency.setValueAtTime(300,ctx.currentTime);osc.frequency.setValueAtTime(200,ctx.currentTime+0.15);}
+    gain.gain.setValueAtTime(0.3,ctx.currentTime);gain.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+0.4);
+    osc.start(ctx.currentTime);osc.stop(ctx.currentTime+0.4);
+  }catch(e){}
+}
+
+// テーマ・設定を起動時に適用
+applyTheme();
+
+function renderHome(){
+  document.getElementById('ht').textContent=us.total;
+  document.getElementById('ha').textContent=us.total>0?Math.round(us.correct/us.total*100)+'%':'—';
+  document.getElementById('hx').textContent=us.xp;
+  var lv=LVLS[0];for(var i=0;i<LVLS.length;i++){if(us.xp>=LVLS[i][0]&&us.xp<LVLS[i][1]){lv=LVLS[i];break;}}
+  var rng=lv[1]-lv[0];var pct=rng>=99999?100:Math.min(100,Math.round((us.xp-lv[0])/rng*100));
+  document.getElementById('xlv').textContent=lv[2];
+  document.getElementById('xpt').textContent=rng>=99999?'MAX':(us.xp-lv[0])+'/'+rng+' XP';
+  document.getElementById('xf').style.width=pct+'%';
+  var bmb=document.getElementById('bmhb');
+  if(bmb){bmb.disabled=bms.length===0;bmb.innerHTML='<i class="ti ti-bookmark"></i> ブックマークした問題のみ出題'+(bms.length>0?' ('+bms.length+'問)':'');}
+  var grid=document.getElementById('cgr');
+  grid.innerHTML='';
+  var cats=getCats();
+  cats.forEach(function(cat){
+    var s=us.catStats[cat];
+    var a=(s&&s.total>0)?Math.round(s.correct/s.total*100):null;
+    var cnt=0;qs.forEach(function(q){if(q.cat===cat)cnt++;});
+    var icon=getCatIcon(cat);
+    var btn=document.createElement('button');
+    btn.className='ccd';
+    btn.innerHTML=(a!==null?'<span class="cac '+(a>=70?'ahi':a>=40?'ami':'alo')+'">'+a+'%</span>':'')+
+      '<div class="cic"><i class="ti '+icon+'"></i></div>'+
+      '<div class="cnm">'+esc(cat)+'</div>'+
+      '<div class="cct">'+cnt+'問</div>';
+    (function(c){btn.onclick=function(){startQuiz(c);};})(cat);
+    grid.appendChild(btn);
+  });
+}
+function startQuiz(cat){
+  var pool=cat==='all'?qs.slice():qs.filter(function(q){return q.cat===cat;});
+  if(!pool.length){alert('問題がありません');return;}
+  pool.sort(function(){return Math.random()-0.5;});
+  if(CFG.qcount>0&&pool.length>CFG.qcount)pool=pool.slice(0,CFG.qcount);
+  qst={qs:pool,idx:0,correct:0,streak:0,xp:0,cat:cat,res:[]};
+  goTab(1);renderQ();
+}
+function startBmQuiz(){
+  if(!bms.length){alert('ブックマークした問題がありません。\nクイズ中に☆ブックマークボタンで保存してください。');return;}
+  var pool=bms.slice();pool.sort(function(){return Math.random()-0.5;});
+  qst={qs:pool,idx:0,correct:0,streak:0,xp:0,cat:'bookmark',res:[]};
+  goTab(1);renderQ();
+}
+function isBm(id){return bms.some(function(b){return b.id===id;});}
+function togBm(id){
+  var q=null;
+  for(var i=0;i<qs.length;i++){if(qs[i].id===id){q=qs[i];break;}}
+  if(!q){for(var i=0;i<bms.length;i++){if(bms[i].id===id){q=bms[i];break;}}}
+  if(!q)return;
+  if(isBm(id)){bms=bms.filter(function(b){return b.id!==id;});}
+  else{bms.push(JSON.parse(JSON.stringify(q)));}
+  svB();
+  var btn=document.getElementById('bb'+id);
+  if(btn){btn.textContent=(isBm(id)?'★':'☆')+' ブックマーク';btn.className='bmb'+(isBm(id)?' on':'');}
+  renderHome();
+}
+function renderQ(){
+  var q=qst.qs[qst.idx];var tot=qst.qs.length;var idx=qst.idx;
+  var L=['A','B','C','D'];
+  var stk=qst.streak>=2?'<span class="stk">&#x1F525;'+qst.streak+'連続</span>':'';
+  var bmc=isBm(q.id)?'bmb on':'bmb';var bms2=isBm(q.id)?'★':'☆';
+  var opts='';
+  for(var i=0;i<q.opts.length;i++){
+    opts+='<button class="ob" id="o'+i+'" onclick="ansQ('+i+')"><span class="ol">'+L[i]+'</span>'+esc(q.opts[i])+'</button>';
+  }
+  document.getElementById('qa').innerHTML=
+    '<div class="qh"><span class="qct">'+esc(q.cat)+'</span>'+
+    '<div class="qm">'+stk+
+    '<button class="'+bmc+'" id="bb'+q.id+'" onclick="togBm('+q.id+')">'+bms2+' ブックマーク</button>'+
+    '<span>'+(idx+1)+' / '+tot+'</span></div></div>'+
+    '<div class="pb"><div class="pf" style="width:'+Math.round(idx/tot*100)+'%"></div></div>'+
+    (CFG.timer>0?'<div class="tmr-txt" id="tmr-left">'+CFG.timer+'秒</div><div class="tmr-bar"><div class="tmr-f" id="tmr-fill" style="width:100%"></div></div>':'')+
+    '<div class="qcd"><div class="qt">'+esc(q.q)+'</div></div>'+
+    opts+
+    '<button class="skb" id="skb" onclick="skipQ()"><i class="ti ti-player-skip-forward"></i> この問題をスキップ</button>'+
+    '<div class="fb" id="fb"></div>'+
+    '<div class="ex" id="ex"></div>'+
+    '<button class="nb" id="nb" onclick="nextQ()">次の問題へ →</button><div class="nb-spacer" id="nb-spacer"></div>';
+  if(CFG.timer>0){startTimer(CFG.timer,function(){skipQ();});}
+}
+function ansQ(i){
+  stopTimer();
+  for(var j=0;j<4;j++){var b=document.getElementById('o'+j);if(b)b.disabled=true;}
+  document.getElementById('skb').style.display='none';
+  var q=qst.qs[qst.idx];var ok=i===q.ans;
+  us.total++;if(!us.catStats[q.cat])us.catStats[q.cat]={correct:0,total:0};
+  us.catStats[q.cat].total++;
+  var fb=document.getElementById('fb');
+  if(ok){
+    us.correct++;us.catStats[q.cat].correct++;qst.correct++;qst.streak++;
+    var xp=qst.streak>=3?20:10;us.xp+=xp;qst.xp+=xp;
+    document.getElementById('o'+i).className='ob ok';
+    playSound('ok');fb.className='fb on fbok';fb.innerHTML='<i class="ti ti-circle-check"></i> 正解！ +'+xp+'XP'+(qst.streak>=3?' &#x1F525;ボーナス':'');
+    qst.res.push('ok');
+  }else{
+    qst.streak=0;
+    document.getElementById('o'+i).className='ob ng';
+    document.getElementById('o'+q.ans).className='ob rv';
+    playSound('ng');fb.className='fb on fbng';fb.innerHTML='<i class="ti ti-circle-x"></i> 不正解…正解は「'+'ABCD'[q.ans]+'」';
+    qst.res.push('ng');
+  }
+  if(q.exp){var ex=document.getElementById('ex');ex.textContent='💡 '+q.exp;ex.className='ex on';}
+  document.getElementById('nb').className='nb on';
+  var sp=document.getElementById('nb-spacer');if(sp)sp.className='nb-spacer on';
+  svS();
+}
+function skipQ(){
+  stopTimer();
+  qst.streak=0;qst.res.push('sk');
+  nextQ();
+}
+function nextQ(){qst.idx++;if(qst.idx>=qst.qs.length)showRes();else renderQ();}
+function showRes(){
+  var q2=qst.qs;var cor=qst.correct;var xp=qst.xp;var cat=qst.cat;var res=qst.res;
+  var pct=Math.round(cor/q2.length*100);
+  var msg=pct===100?'🎉 満点！おめでとうございます！':pct>=90?'🏆 素晴らしい！':pct>=70?'👍 よくできました！':pct>=50?'📚 もう少し！':'💪 繰り返し練習しよう！';
+  var L=['A','B','C','D'];
+  var rfn=cat==='bookmark'?'startBmQuiz()':'startQuiz(\''+cat+'\')';
+  var rev='<div style="font-size:12px;font-weight:700;color:var(--g6);margin-bottom:8px;margin-top:1.25rem;">問題の振り返り</div>';
+  for(var i=0;i<q2.length;i++){
+    var r=res[i]||'sk';
+    var cls=r==='ok'?'rvi rvc':r==='ng'?'rvi rvw':'rvi rvs';
+    var ic=r==='ok'?'✓':r==='ng'?'✗':'—';
+    var icc=r==='ok'?'#3B6D11':r==='ng'?'#CC0000':'#888';
+    rev+='<div class="'+cls+'"><div style="display:flex;align-items:flex-start;gap:8px;">'
+      +'<span style="font-size:14px;font-weight:700;color:'+icc+';flex-shrink:0;margin-top:1px;">'+ic+'</span>'
+      +'<div style="flex:1"><div style="font-size:12px;font-weight:500;color:#222;line-height:1.5;margin-bottom:4px;">'+esc(q2[i].q)+'</div>'
+      +'<div style="font-size:11px;color:#444;">正解：'+L[q2[i].ans]+'. '+esc(q2[i].opts[q2[i].ans])+'</div>'
+      +(q2[i].exp?'<div style="font-size:11px;color:#666;margin-top:4px;padding-top:4px;border-top:1px solid rgba(0,0,0,0.08);">💡 '+esc(q2[i].exp)+'</div>':'')
+      +'</div></div></div>';
+  }
+  renderHome();
+  document.getElementById('qa').innerHTML=
+    '<div class="rh"><div class="rp">'+pct+'%</div><div class="rl">正解率</div><div class="rm2">'+msg+'</div><div class="rs">+'+xp+' XP 獲得！</div></div>'
+    +'<div class="rg">'
+    +'<div class="ri"><div class="rv2">'+cor+'</div><div class="rl3">正解</div></div>'
+    +'<div class="ri"><div class="rv2">'+(q2.length-cor)+'</div><div class="rl3">不正解</div></div>'
+    +'<div class="ri"><div class="rv2">+'+xp+'</div><div class="rl3">XP</div></div>'
+    +'</div>'
+    +'<div class="ar" style="margin-bottom:0">'
+    +'<button class="bp" onclick="'+rfn+'">もう一度挑戦</button>'
+    +'<button class="bs" onclick="goTab(0)">ホームへ</button>'
+    +'</div>'+rev;
+  if(pct===100)setTimeout(confetti,300);
+}
+function confetti(){
+  var c=document.getElementById('cc');c.style.display='block';
+  var ctx=c.getContext('2d');c.width=window.innerWidth;c.height=window.innerHeight;
+  var cl=['#CC0000','#FF6666','#FFD700','#FF69B4','#00CED1','#98FB98','#FFA500','#ffffff','#FF4500','#9400D3'];
+  var shapes=['rect','circle','star'];
+  var p=[];
+  for(var i=0;i<250;i++){
+    var side=Math.random()<0.5?-1:1;
+    p.push({
+      x:Math.random()<0.5?-10:c.width+10,
+      y:Math.random()*c.height*0.5,
+      w:Math.random()*14+6,h:Math.random()*7+4,
+      color:cl[Math.floor(Math.random()*cl.length)],
+      shape:shapes[Math.floor(Math.random()*shapes.length)],
+      r:Math.random()*Math.PI*2,
+      vx:(Math.random()*6+3)*side*-1,
+      vy:Math.random()*5+2,
+      vr:(Math.random()-0.5)*0.3,
+      a:1,swing:Math.random()*0.1,swingSpeed:Math.random()*0.05+0.02,t:0
+    });
+  }
+  var f=0;
+  function draw(){
+    ctx.clearRect(0,0,c.width,c.height);
+    p.forEach(function(pp){
+      pp.t+=1;
+      pp.x+=pp.vx+Math.sin(pp.t*pp.swingSpeed)*pp.swing*10;
+      pp.y+=pp.vy;pp.r+=pp.vr;
+      if(pp.y>c.height*0.3)pp.a-=0.012;
+      else pp.a-=0.003;
+      ctx.save();ctx.globalAlpha=Math.max(0,pp.a);
+      ctx.translate(pp.x,pp.y);ctx.rotate(pp.r);
+      ctx.fillStyle=pp.color;
+      if(pp.shape==='circle'){ctx.beginPath();ctx.arc(0,0,pp.w/2,0,Math.PI*2);ctx.fill();}
+      else if(pp.shape==='star'){
+        ctx.beginPath();
+        for(var s=0;s<5;s++){
+          ctx.lineTo(Math.cos((18+s*72)*Math.PI/180)*pp.w/2,Math.sin((18+s*72)*Math.PI/180)*pp.w/2);
+          ctx.lineTo(Math.cos((54+s*72)*Math.PI/180)*pp.w/4,Math.sin((54+s*72)*Math.PI/180)*pp.w/4);
+        }
+        ctx.closePath();ctx.fill();
+      }else{ctx.fillRect(-pp.w/2,-pp.h/2,pp.w,pp.h);}
+      ctx.restore();
+    });
+    f++;
+    if(f<300)requestAnimationFrame(draw);
+    else{ctx.clearRect(0,0,c.width,c.height);c.style.display='none';}
+  }
+  draw();
+}
+function renderAList(){
+  var l=document.getElementById('aql');var e=document.getElementById('aemp');var pb=document.getElementById('apb');
+  document.getElementById('aqc').textContent=qs.length+'問';
+  pb.disabled=qs.length===0;
+  if(!qs.length){l.innerHTML='';e.style.display='block';return;}
+  e.style.display='none';
+  l.innerHTML='';
+  for(var i=0;i<qs.length;i++){l.innerHTML+=mkCard(qs[i],i);}
+}
+function mkCard(q,i){
+  var L=['A','B','C','D'];
+  var op='';for(var j=0;j<4;j++)op+='<div class="eor"><span class="eol">'+L[j]+'</span><input class="eoi" type="text" id="eo'+q.id+'_'+j+'" value="'+esc(q.opts[j])+'"><input type="radio" name="ea'+q.id+'" value="'+j+'" '+(q.ans===j?'checked':'')+' class="cr" title="正解"></div>';
+  return '<div class="ec" id="ec'+q.id+'"><div class="ech"><div class="en">'+(i+1)+'</div><div style="flex:1"><span class="ctg">'+esc(q.cat)+'</span><textarea class="eta" id="eq'+q.id+'" rows="2">'+esc(q.q)+'</textarea></div><button class="edb" onclick="delQ('+q.id+')"><i class="ti ti-trash"></i></button></div>'
+    +'<div class="eb"><div class="el">選択肢（ラジオボタンで正解を選択）</div><div class="eo">'+op+'</div>'
+    +'<span class="etg" onclick="togEx('+q.id+')">解説を表示/編集</span>'
+    +'<div id="eea'+q.id+'" class="eea"><textarea class="eta" id="eex'+q.id+'" rows="2" style="margin-top:6px">'+esc(q.exp||'')+'</textarea></div>'
+    +'</div></div>';
+}
+function togEx(id){var e=document.getElementById('eea'+id);if(e)e.style.display=e.style.display==='none'?'block':'none';}
+function rdCard(q){
+  var e=document.getElementById('eq'+q.id);if(e)q.q=e.value;
+  for(var j=0;j<4;j++){var i=document.getElementById('eo'+q.id+'_'+j);if(i)q.opts[j]=i.value;}
+  var r=document.querySelector('input[name="ea'+q.id+'"]:checked');if(r)q.ans=parseInt(r.value);
+  var x=document.getElementById('eex'+q.id);if(x)q.exp=x.value;
+  return q;
+}
+function saveEdits(){qs.forEach(function(q){rdCard(q);});svQ();renderAList();renderHome();alert('保存しました！次回開いても反映されています。');}
+function delQ(id){if(!confirm('この問題を削除しますか？'))return;qs=qs.filter(function(q){return q.id!==id;});svQ();renderAList();renderHome();}
+function addBlank(){
+  var q={id:nid++,cat:'新しいカテゴリ',q:'問題文を入力してください',opts:['選択肢A','選択肢B','選択肢C','選択肢D'],ans:0,exp:''};
+  qs.push(q);renderAList();
+  setTimeout(function(){var e=document.getElementById('eq'+q.id);if(e){e.scrollIntoView({behavior:'smooth',block:'center'});e.focus();}},100);
+}
+function doReset(){
+  if(!confirm('問題データを初期状態（23問）に戻しますか？\n編集した内容はすべて消えます。'))return;
+  qs=JSON.parse(JSON.stringify(QS));nid=Math.max(100,Math.max.apply(null,qs.map(function(q){return q.id+1;})));
+  renderAList();renderHome();alert('初期化しました！');
+}
+function exportHtml(){
+  qs.forEach(function(q){rdCard(q);});
+  var h=document.documentElement.outerHTML;
+  var newQs=JSON.stringify(qs);
+  h=h.replace(/var QS=\[[\s\S]*?\];/,'var QS='+newQs+';');
+  var blob=new Blob([h],{type:'text/html;charset=utf-8'});
+  var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='yakult_quiz_latest.html';a.click();URL.revokeObjectURL(a.href);
+  alert('HTMLを書き出しました！\nこのファイルをスタッフに配布してください。');
+}
+// ===== 文言設定変数 =====
+var TXT_DEFS={
+  'app_title':'商品知識クイズ',
+  'app_sub':'兵庫ヤクルト販売 スタッフ学習ツール',
+  'home_greeting':'こんにちは！今日も学習しよう',
+  'home_desc':'カテゴリを選んで過去問に挑戦するか、ランダム出題で全範囲を復習できます。',
+  'nav_home':'ホーム',
+  'nav_quiz':'クイズ',
+  'nav_settings':'設定',
+  'nav_admin':'管理',
+  'btn_random':'ランダム出題（全カテゴリ）',
+  'btn_bookmark':'ブックマークした問題のみ出題'
+};
+var TXTS=JSON.parse(JSON.stringify(TXT_DEFS));
+try{var ts2=localStorage.getItem('yq_txts');if(ts2)Object.assign(TXTS,JSON.parse(ts2));}catch(e){}
+var TXT_LABELS={
+  'app_title':'アプリ名','app_sub':'ヘッダーサブタイトル',
+  'home_greeting':'ホーム挨拶文','home_desc':'ホーム説明文',
+  'nav_home':'ナビ：ホーム','nav_quiz':'ナビ：クイズ',
+  'nav_settings':'ナビ：設定','nav_admin':'ナビ：管理',
+  'btn_random':'ランダム出題ボタン','btn_bookmark':'ブックマークボタン'
+};
+
+function applyTxts(){
+  var map={
+    'app_title':'.htl','app_sub':'.hsb','home_greeting':'.wtl','home_desc':'.wsb',
+  };
+  // ヘッダータイトル
+  var ht=document.querySelector('.htl');if(ht)ht.textContent=TXTS.app_title;
+  var hs=document.querySelector('.hsb');if(hs)hs.textContent=TXTS.app_sub;
+  // ナビ
+  var n0=document.getElementById('n0');if(n0)n0.innerHTML='<i class="ti ti-home"></i> '+TXTS.nav_home;
+  var n1=document.getElementById('n1');if(n1)n1.innerHTML='<i class="ti ti-device-gamepad-2"></i> '+TXTS.nav_quiz;
+  var n3=document.getElementById('n3');if(n3)n3.innerHTML='<i class="ti ti-adjustments-horizontal"></i> '+TXTS.nav_settings;
+}
+function saveTxts(){
+  var fields=document.querySelectorAll('.txt-fld');
+  fields.forEach(function(f){TXTS[f.dataset.key]=f.value;});
+  try{localStorage.setItem('yq_txts',JSON.stringify(TXTS));}catch(e){}
+  applyTxts();renderHome();alert('文言を保存しました！');
+}
+var TXT_LABELS={
+  'app_title':'アプリ名','app_sub':'ヘッダーサブタイトル',
+  'home_greeting':'ホーム挨拶文','home_desc':'ホーム説明文',
+  'nav_home':'ナビ：ホーム','nav_quiz':'ナビ：クイズ',
+  'nav_settings':'ナビ：設定','nav_admin':'ナビ：管理',
+  'btn_random':'ランダム出題ボタン','btn_bookmark':'ブックマークボタン'
+};
+function renderTxtFields(){
+  var el=document.getElementById('txt-fields');if(!el)return;
+  el.innerHTML='';
+  Object.keys(TXT_DEFS).forEach(function(k){
+    el.innerHTML+='<div style="margin-bottom:10px"><div class="el">'+esc(TXT_LABELS[k]||k)+'</div>'+
+      '<input type="text" class="eoi txt-fld" data-key="'+k+'" value="'+esc(TXTS[k]||'')+'" style="width:100%"></div>';
+  });
+}
+function resetTxts(){
+  if(!confirm('文言を初期値に戻しますか？'))return;
+  TXTS=JSON.parse(JSON.stringify(TXT_DEFS));
+  try{localStorage.removeItem('yq_txts');}catch(e){}
+  applyTxts();renderHome();renderTxtFields();alert('文言をリセットしました！');
+}
+
+// ===== カテゴリ管理 =====
+function getCats(){
+  var cats=[];
+  qs.forEach(function(q){if(cats.indexOf(q.cat)<0)cats.push(q.cat);});
+  var order=Object.keys(ICONS);
+  cats.sort(function(a,b){
+    if(a==='その他')return 1;
+    if(b==='その他')return -1;
+    var ia=order.indexOf(a);
+    var ib=order.indexOf(b);
+    if(ia<0)ia=99;if(ib<0)ib=99;
+    return ia-ib;
+  });
+  return cats;
+}
+function renderCatMgr(){
+  var cats=getCats();
+  var el=document.getElementById('cat-list');if(!el)return;
+  el.innerHTML='';
+  cats.forEach(function(cat){
+    var cnt=qs.filter(function(q){return q.cat===cat;}).length;
+    var row=document.createElement('div');
+    row.style.cssText='display:flex;align-items:center;gap:8px;padding:8px;border:1px solid var(--g2);border-radius:8px;margin-bottom:6px;background:white;';
+    row.draggable=true;
+    row.dataset.cat=cat;
+    row.innerHTML='<i class="ti ti-grip-vertical" style="color:var(--g4);cursor:grab"></i>'+
+      '<span style="flex:1;font-size:13px;font-weight:500">'+esc(cat)+'</span>'+
+      '<span style="font-size:11px;color:var(--g6)">'+cnt+'問</span>'+
+      (cnt===0?'<button class="edb" onclick="delCatByEl(this)"><i class="ti ti-trash"></i></button>':'<span style="font-size:11px;color:var(--g4)">削除不可</span>');
+    el.appendChild(row);
+  });
+  // 並び替え用セレクト更新
+  var sel=document.getElementById('sort-cat-sel');
+  if(sel){sel.innerHTML='<option value="">カテゴリを選択...</option>';cats.forEach(function(c){sel.innerHTML+='<option value="'+esc(c)+'">'+esc(c)+'</option>';});}
+}
+function addCat(){
+  var inp=document.getElementById('new-cat-inp');if(!inp||!inp.value.trim())return;
+  var name=inp.value.trim();
+  if(getCats().indexOf(name)>=0){alert('同じカテゴリ名が既にあります');return;}
+  // ダミー問題は追加せず、カテゴリ名だけ記録（次に手動追加するとき使える）
+  alert('カテゴリ「'+name+'」を追加しました。次に「問題を編集」→「手動追加」でこのカテゴリ名を入力してください。');
+
+  inp.value='';
+}
+function delCat(cat){
+  var cnt=qs.filter(function(q){return q.cat===cat;}).length;
+  if(cnt>0){alert('問題がある間は削除できません。先に問題を削除してください。');return;}
+  if(!confirm('カテゴリ「'+cat+'」を削除しますか？'))return;
+  renderCatMgr();
+}
+function renderCatSort(){
+  var sel=document.getElementById('sort-cat-sel');
+  var cat=sel?sel.value:'';
+  var el=document.getElementById('sort-list');if(!el)return;
+  if(!cat){el.innerHTML='';return;}
+  var pool=qs.filter(function(q){return q.cat===cat;});
+  el.innerHTML='<div style="font-size:11px;color:var(--g6);margin-bottom:8px">上下の矢印で順序変更</div>';
+  pool.forEach(function(q,i){
+    el.innerHTML+='<div style="display:flex;align-items:center;gap:8px;padding:6px 10px;border:1px solid var(--g2);border-radius:6px;margin-bottom:4px;background:white;font-size:12px;">'+
+      '<span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+esc(q.q)+'</span>'+
+      '<button class="edb" style="padding:3px 6px" onclick="moveQ('+q.id+',-1)" '+(i===0?'disabled':'')+'>↑</button>'+
+      '<button class="edb" style="padding:3px 6px" onclick="moveQ('+q.id+',1)" '+(i===pool.length-1?'disabled':'')+'>↓</button>'+
+      '</div>';
+  });
+}
+function moveQ(id,dir){
+  var sel=document.getElementById('sort-cat-sel');var cat=sel?sel.value:'';
+  var idx=qs.findIndex(function(q){return q.id===id;});
+  var catIdxs=[];qs.forEach(function(q,i){if(q.cat===cat)catIdxs.push(i);});
+  var pos=catIdxs.indexOf(idx);
+  if(pos<0)return;
+  var swapPos=pos+dir;
+  if(swapPos<0||swapPos>=catIdxs.length)return;
+  var tmp=qs[catIdxs[pos]];qs[catIdxs[pos]]=qs[catIdxs[swapPos]];qs[catIdxs[swapPos]]=tmp;
+  svQ();renderCatSort();
+}
+
+
+function moveCatByIdx(idx,dir){
+  var cats=_catList;
+  cats.forEach(function(c,i){if(!CAT_SETTINGS[c])CAT_SETTINGS[c]={icon:getCatIcon(c),order:i};});
+  var nIdx=idx+dir;
+  if(nIdx<0||nIdx>=cats.length)return;
+  var tmp=CAT_SETTINGS[cats[idx]].order;
+  CAT_SETTINGS[cats[idx]].order=CAT_SETTINGS[cats[nIdx]].order;
+  CAT_SETTINGS[cats[nIdx]].order=tmp;
+  renderCatMgr();
+}
+function saveCatSettings(){
+  var cats=getCats();
+  cats.forEach(function(cat,idx){
+    if(!CAT_SETTINGS[cat])CAT_SETTINGS[cat]={order:idx};
+    CAT_SETTINGS[cat].order=idx;
+  });
+  document.querySelectorAll('.cat-icon-sel').forEach(function(sel){
+    if(!CAT_SETTINGS[sel.dataset.cat])CAT_SETTINGS[sel.dataset.cat]={order:99};
+    CAT_SETTINGS[sel.dataset.cat].icon=sel.value;
+  });
+  try{localStorage.setItem('yq_cat',JSON.stringify(CAT_SETTINGS));}catch(e){}
+  renderHome();alert('カテゴリ設定を保存しました！');
+}
+renderHome();
+applyTxts();
+// ホームのタイマーボタン初期状態
+(function(){
+  var presets=[0,10,20,30,60];
+  var isPreset=presets.indexOf(CFG.timer)>=0;
+  document.querySelectorAll('.tmr-opt').forEach(function(b){
+    b.classList.toggle('on',isPreset&&parseInt(b.dataset.v)===CFG.timer);
+  });
+  var ci=document.getElementById('tmr-custom');
+  if(ci){
+    ci.value=isPreset?'':CFG.timer;
+    ci.style.borderColor=isPreset?'':'var(--red)';
+  }
+})();
+</script>
+</body>
+</html>
